@@ -1,0 +1,2657 @@
+{
+  "run": {
+    "timestamp": "20261021_132828",
+    "documents": [
+      "gpo",
+      "world_bank",
+      "apple"
+    ],
+    "top_k": 5,
+    "retrieval_only": false
+  },
+  "summary": {
+    "gpo": {
+      "questions": 14,
+      "errors": 0,
+      "with_expected_pages": 12,
+      "page_hit_rate": 1.0,
+      "mrr": 0.917,
+      "with_expected_keywords": 12,
+      "avg_keyword_recall": 0.972,
+      "not_found_answers": 2,
+      "avg_latency_s": 5.346
+    },
+    "world_bank": {
+      "questions": 14,
+      "errors": 0,
+      "with_expected_pages": 12,
+      "page_hit_rate": 1.0,
+      "mrr": 0.757,
+      "with_expected_keywords": 12,
+      "avg_keyword_recall": 0.931,
+      "not_found_answers": 2,
+      "avg_latency_s": 11.874
+    },
+    "apple": {
+      "questions": 14,
+      "errors": 0,
+      "with_expected_pages": 12,
+      "page_hit_rate": 1.0,
+      "mrr": 1.0,
+      "with_expected_keywords": 12,
+      "avg_keyword_recall": 0.917,
+      "not_found_answers": 2,
+      "avg_latency_s": 13.301
+    }
+  },
+  "results": [
+    {
+      "document": "gpo",
+      "question": "What is the core mission of the U.S. Government Publishing Office according to the report?",
+      "category": "text",
+      "expected_answer": "GPO's core mission is Keeping America Informed by producing, procuring, cataloging, indexing, authenticating, disseminating, and preserving the official information products of the U.S. Government.",
+      "expected_pages": [
+        7,
+        35
+      ],
+      "expected_keywords": [
+        "Keeping America Informed",
+        "authenticating",
+        "preserving"
+      ],
+      "answer": "The report states that the core mission of the U.S. Government Publishing Office is **“Keeping America Informed,”** which it fulfills by producing, procuring, cataloging, indexing, authenticating, disseminating, and preserving the official information products of the U.S. Government.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 35,
+          "end_page": 35,
+          "title": null,
+          "type": null,
+          "distance": 0.2578,
+          "preview": "Section I: Management Discussion and Analysis (Unaudited) \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018  \n4   \nU.S. Government Publishing Office \nManagement Discussion and"
+        },
+        {
+          "start_page": 61,
+          "end_page": 61,
+          "title": null,
+          "type": null,
+          "distance": 0.3806,
+          "preview": "Section IV: Notes to the Financial Statements \n \n \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018                                                                            "
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": null,
+          "distance": 0.383,
+          "preview": "the White House, U.S. passports for the Department \nof State, and the official publications of other Federal \nagencies and the courts. Once primarily a printing \noperation, we are now an integrated pu"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": null,
+          "distance": 0.4002,
+          "preview": "5\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E | 2 0 1 8 A N N U A L R E P O R T\nT\nhe U.S. Government Publishing Office (GPO), \na legislative branch agency, is the OFFICIAL, \nDIGITAL, S"
+        },
+        {
+          "start_page": 39,
+          "end_page": 39,
+          "title": null,
+          "type": null,
+          "distance": 0.4368,
+          "preview": "Section I: Management Discussion and Analysis (Unaudited) \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018  \n8   \nPublication and Information Sales – This unit increases publ"
+        }
+      ],
+      "latency_s": 7.35,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "What are the five goals that GPO's strategic plan is built around?",
+      "category": "text",
+      "expected_answer": "Exceeding stakeholders' expectations; enhancing access to Federal Government information; strengthening its position as the government-wide authority on publishing; promoting collaboration and innovation within government; and engaging employees and enhancing internal operations.",
+      "expected_pages": [
+        9
+      ],
+      "expected_keywords": [
+        "stakeholders",
+        "access",
+        "authority",
+        "innovation"
+      ],
+      "answer": "The five goals that GPO’s strategic plan is built around are:\n\n1. Exceeding our stakeholders’ expectations  \n2. Enhancing access to Federal Government information  \n3. Strengthening our position as the government‑wide authority on publishing  \n4. Promoting collaboration and innovation within government  \n5. Engaging employees",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 9,
+          "end_page": 9,
+          "title": null,
+          "type": null,
+          "distance": 0.333,
+          "preview": "7\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E | 2 0 1 8 A N N U A L R E P O R T\ndigital formats, though its use will continue to decline \nrelative to the continued growth in the provis"
+        },
+        {
+          "start_page": 9,
+          "end_page": 9,
+          "title": null,
+          "type": null,
+          "distance": 0.481,
+          "preview": "authority on publishing; promoting collaboration and \ninnovation within government; and engaging employees \nand enhancing internal operations. The plan provides \nthe blueprint for how GPO will continu"
+        },
+        {
+          "start_page": 49,
+          "end_page": 49,
+          "title": null,
+          "type": null,
+          "distance": 0.5,
+          "preview": "manufacturing technology. The GPO operating budget also provides sufficient cash to allow \ncontinued capital investment to achieve more efficient operations and better meet customer \nneeds.   \nThe GPO"
+        },
+        {
+          "start_page": 8,
+          "end_page": 8,
+          "title": null,
+          "type": null,
+          "distance": 0.503,
+          "preview": "forms, tax forms, citizenship forms, passports, military \nhistories ranging from the Official Records of the War \nof the Rebellion to the latest accounts of our forces in \nAfghanistan, the 9/11 Commis"
+        },
+        {
+          "start_page": 36,
+          "end_page": 36,
+          "title": null,
+          "type": null,
+          "distance": 0.4906,
+          "preview": "recommendations from audits, reviews, and investigations, has strengthened management \ncontrols and improved the economy, efficiency, and effectiveness of GPO’s programs, \noperations, and other activi"
+        }
+      ],
+      "latency_s": 1.59,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How many U.S. passports did GPO produce for the State Department in FY 2018, and how many has it produced over the past 11 years?",
+      "category": "text",
+      "expected_answer": "About 16 million passports in FY 2018, and more than 166 million over the past 11 years.",
+      "expected_pages": [
+        18
+      ],
+      "expected_keywords": [
+        "16 million",
+        "166 million"
+      ],
+      "answer": "- **FY 2018 production:** GPO produced about **16 million U.S. passports** for the State Department.  \n- **Production over the past 11 years:** GPO has produced **more than 166 million U.S. passports** in total during the preceding 11‑year period.  \n\n(These figures are stated in the GPO Annual Report, FY 2018.)",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 18,
+          "end_page": 18,
+          "title": null,
+          "type": null,
+          "distance": 0.2436,
+          "preview": "U.S. passport since 2005 has incorporated a digital \nchip and antenna array capable of carrying biometric \nidentification data. With other security printing features, \nthis document—which GPO produces"
+        },
+        {
+          "start_page": 6,
+          "end_page": 6,
+          "title": null,
+          "type": null,
+          "distance": 0.2935,
+          "preview": "2 0 1 8 A N N U A L R E P O R T | U . S . G O V E R N M E N T P U B L I S H I N G O F F I C E \nof logistics, distribution, warehousing, and fulfillment \nservices designed to help enhance their own \nop"
+        },
+        {
+          "start_page": 6,
+          "end_page": 6,
+          "title": null,
+          "type": null,
+          "distance": 0.4452,
+          "preview": "10th Anniversary of SID’s program to produce secure \nidentification credentials for Federal agencies. Thanks \nto the dedication and skill of our SID professionals, \nGPO—through the end of FY 2018—prod"
+        },
+        {
+          "start_page": 14,
+          "end_page": 14,
+          "title": null,
+          "type": null,
+          "distance": 0.5079,
+          "preview": "2 0 1 8 A N N U A L R E P O R T | U . S . G O V E R N M E N T P U B L I S H I N G O F F I C E \nGPO By the Numbers FY 2018\n12\n2 0 1 8 A N N U A L R E P O R T | U . S . G O V E R N M E N T P U B L I S H"
+        },
+        {
+          "start_page": 47,
+          "end_page": 47,
+          "title": null,
+          "type": null,
+          "distance": 0.3753,
+          "preview": "Section I: Management Discussion and Analysis (Unaudited) \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018  \n16   \nPassport and Smartcard Metrics \nSID is meeting the challeng"
+        }
+      ],
+      "latency_s": 1.98,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How far back does GPO's completed digitization of the Congressional Record go, and what did the first issue contain?",
+      "category": "text",
+      "expected_answer": "Back to the first issue of March 4, 1873, which opens with a proclamation by President Ulysses S. Grant convening a special session of the Senate.",
+      "expected_pages": [
+        13
+      ],
+      "expected_keywords": [
+        "1873",
+        "Grant"
+      ],
+      "answer": "GPO’s digitization of the Congressional Record was completed back to the very first issue, dated **March 4, 1873**. That inaugural issue **opens with a proclamation by President Ulysses S. Grant formally convening a special session of the United States Senate**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 13,
+          "end_page": 13,
+          "title": null,
+          "type": null,
+          "distance": 0.2033,
+          "preview": "Supreme Court Justice Brett M. Kavanaugh. \nIn FY 2018, GPO also completed its digitization of \nthe Congressional Record back to the very first issue \nfrom March 4, 1873, which opens with a proclamatio"
+        },
+        {
+          "start_page": 17,
+          "end_page": 17,
+          "title": null,
+          "type": null,
+          "distance": 0.4351,
+          "preview": "15\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E | 2 0 1 8 A N N U A L R E P O R T\nIn FY 2018, GPO was proud to complete a project, \nundertaken in collaboration with OFR, to digitize and"
+        },
+        {
+          "start_page": 22,
+          "end_page": 22,
+          "title": null,
+          "type": null,
+          "distance": 0.4538,
+          "preview": "completing the digitized volumes of the bound \nCongressional Record back to 1873, completing the \ndigitized issues of the Federal Register back to 1936, \nadding the digitized volumes of Kappler’s Indi"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": null,
+          "distance": 0.3219,
+          "preview": "historical issues of the Congressional Record, a project \nwhich was completed in FY 2018.\nGPO Cuts the Cost of Congressional Work  \nGPO’s use of electronic information technologies has \nbeen the princ"
+        },
+        {
+          "start_page": 13,
+          "end_page": 13,
+          "title": null,
+          "type": null,
+          "distance": 0.3942,
+          "preview": "11\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E | 2 0 1 8 A N N U A L R E P O R T\ncomprehensive 1,242-page Official Congressional \nDirectory for the 115th Congress. Another publication "
+        }
+      ],
+      "latency_s": 3.36,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How many issues of the Federal Register were digitized in the project completed with the Office of the Federal Register, and from what year?",
+      "category": "text",
+      "expected_answer": "More than 14,587 issues (over two million pages), dating back to the Federal Register's inception in 1936.",
+      "expected_pages": [
+        17
+      ],
+      "expected_keywords": [
+        "14,587",
+        "1936"
+      ],
+      "answer": "The project digitized **more than 14,587 individual issues** of the Federal Register, covering every issue **from its first publication in 1936**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 17,
+          "end_page": 17,
+          "title": null,
+          "type": null,
+          "distance": 0.3984,
+          "preview": "15\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E | 2 0 1 8 A N N U A L R E P O R T\nIn FY 2018, GPO was proud to complete a project, \nundertaken in collaboration with OFR, to digitize and"
+        },
+        {
+          "start_page": 22,
+          "end_page": 22,
+          "title": null,
+          "type": null,
+          "distance": 0.47,
+          "preview": "completing the digitized volumes of the bound \nCongressional Record back to 1873, completing the \ndigitized issues of the Federal Register back to 1936, \nadding the digitized volumes of Kappler’s Indi"
+        },
+        {
+          "start_page": 13,
+          "end_page": 13,
+          "title": null,
+          "type": null,
+          "distance": 0.4683,
+          "preview": "Supreme Court Justice Brett M. Kavanaugh. \nIn FY 2018, GPO also completed its digitization of \nthe Congressional Record back to the very first issue \nfrom March 4, 1873, which opens with a proclamatio"
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": null,
+          "distance": 0.5886,
+          "preview": "FY 2018, while also cataloging a total of 34,367 titles.\nGPO’s facilities personnel undertook a major \nrenovation project in FY 2018 on behalf of the National \nArchives and Records Administration (NAR"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": null,
+          "distance": 0.6116,
+          "preview": "operation our new zero make-ready (ZMR) press to \nsupport congressional and Federal agency publishing \nrequirements, and as a result were able to reduce the \ncost of producing congressional hearings. "
+        }
+      ],
+      "latency_s": 1.53,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How many webinars did the FDLP Academy host in FY 2018 and how many registrants did they have?",
+      "category": "text",
+      "expected_answer": "The FDLP Academy hosted 85 webinars with 10,214 combined registrants in FY 2018.",
+      "expected_pages": [
+        20
+      ],
+      "expected_keywords": [
+        "85",
+        "10,214"
+      ],
+      "answer": "The FDLP Academy hosted **85 webinars** in FY 2018, with a total of **10,214 registrants**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 20,
+          "end_page": 20,
+          "title": null,
+          "type": null,
+          "distance": 0.4224,
+          "preview": "Government information knowledge through events \nand conferences coordinated by GPO and webinars \nand webcasts on a variety of Government information \ntopics. Many sessions are presented by GPO staff,"
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": null,
+          "distance": 0.401,
+          "preview": "certification as a Trustworthy Digital Repository, an effort \nthat will continue into FY 2019.\nIn terms of engagement and growth, FY 2018 was \nalso a year of accomplishment for the Federal Depository "
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": null,
+          "distance": 0.543,
+          "preview": "which are designed to provide educational programs \nand training, enhance Federal Government information \nliteracy, and meet the needs of the wider FDLP \ncommunity. Those FDLP Academy programs served "
+        },
+        {
+          "start_page": 21,
+          "end_page": 21,
+          "title": null,
+          "type": null,
+          "distance": 0.6113,
+          "preview": "with the depository libraries to strengthen and improve \nthe FDLP, more than 500 librarians from across the \ncountry were expected to attend the 2018 Depository \nLibrary Council Meeting and Federal De"
+        },
+        {
+          "start_page": 19,
+          "end_page": 19,
+          "title": null,
+          "type": null,
+          "distance": 0.637,
+          "preview": "past 25 years to incorporate digital information products, \nand today is supported by govinfo along with other \ndigital resources. The growing reliance on digital content \nunderscored the first digita"
+        }
+      ],
+      "latency_s": 1.68,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How much did Agency Distribution Services revenue grow in FY 2018, and how many copies were distributed?",
+      "category": "text",
+      "expected_answer": "ADS revenues climbed to nearly $13 million from $9.2 million in FY 2017, and copies distributed rose to 69.2 million from 58 million.",
+      "expected_pages": [
+        23
+      ],
+      "expected_keywords": [
+        "13 million",
+        "9.2 million",
+        "69.2"
+      ],
+      "answer": "The Agency Distribution Services (ADS) program’s revenue rose from $9.2 million in FY 2017 to nearly $13 million in FY 2018 – an increase of about $3.8 million.  In FY 2018 the program distributed **approximately 69.2 million copies** of agency materials.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 23,
+          "end_page": 23,
+          "title": null,
+          "type": null,
+          "distance": 0.424,
+          "preview": "program are website hosting, consulting services, \nfulfillment and distribution, address validation services, \ncall center operations, and printing optimization, just \nto name a few. These services ar"
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": null,
+          "distance": 0.3181,
+          "preview": "procured more than $375 million worth of printing \nand other information products in FY 2018. That work \nconsisted of more than 84,000 specific orders that \nwere fulfilled by thousands of private-sect"
+        },
+        {
+          "start_page": 23,
+          "end_page": 23,
+          "title": null,
+          "type": null,
+          "distance": 0.5093,
+          "preview": "million increase over the 58 million copies distributed \nin FY 2017. In total, GPO professionals at the Laurel \nand Pueblo facilities processed over 1.6 million orders \nin FY 2018.\nGPO and Social Medi"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.4388,
+          "preview": "from these funds, GPO’s net operating income from \nFY 2018 was $20.4 million.\nFunds appropriated directly by Congress provided \nnearly $119.5 million (including funds from the \nCongressional Publishin"
+        },
+        {
+          "start_page": 19,
+          "end_page": 19,
+          "title": null,
+          "type": null,
+          "distance": 0.4969,
+          "preview": "past 25 years to incorporate digital information products, \nand today is supported by govinfo along with other \ndigital resources. The growing reliance on digital content \nunderscored the first digita"
+        }
+      ],
+      "latency_s": 2.61,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "Which firm audited GPO's FY 2018 financial statements, and what kind of opinion did GPO receive?",
+      "category": "text",
+      "expected_answer": "KPMG LLP audited the statements and issued an unmodified (clean) opinion, GPO's 22nd consecutive clean opinion.",
+      "expected_pages": [
+        6,
+        25,
+        52
+      ],
+      "expected_keywords": [
+        "KPMG",
+        "unmodified",
+        "22nd"
+      ],
+      "answer": "The FY 2018 financial statements were audited by the independent certified public accounting firm **KPMG LLP**.  \nGPO received an **unmodified (clean) audit opinion** on those consolidated financial statements.",
+      "not_found": false,
+      "keyword_recall": 0.6666666666666666,
+      "page_hit": true,
+      "first_hit_rank": 2,
+      "retrieved": [
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": null,
+          "type": null,
+          "distance": 0.2225,
+          "preview": "2 0 1 8 A N N U A L R E P O R T | U . S . G O V E R N M E N T P U B L I S H I N G O F F I C E \n24\nU . S . G O V E R N M E N T P U B L I S H I N G O F F I C E\nFinancial Statements\nThe following summary"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.3063,
+          "preview": "Appropriation, any unobligated balances remaining \nin this account may be transferred to the Business \nOperations Revolving Fund, where they can be used \nonly for the purposes for which they were orig"
+        },
+        {
+          "start_page": 52,
+          "end_page": 52,
+          "title": null,
+          "type": null,
+          "distance": 0.3399,
+          "preview": "U.S. GOVERNMENT PUBLISHING OFFICE \nOFFICE OF INSPECTOR GENERAL \nDate  \nDecember 14, 2018 \nTo\nActing Deputy Director, U.S. Government Publishing Office \nFrom \nInspector General \nSubject:  \nFY 2018 Inde"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.3914,
+          "preview": "consecutive year GPO has earned such an audit result.\nFY 2018 Financial Results  Revenue totaled \n$874.5 million while expenses charged against GPO’s \nbudget were $821.9 million, for an overall net in"
+        },
+        {
+          "start_page": 55,
+          "end_page": 55,
+          "title": null,
+          "type": null,
+          "distance": 0.3524,
+          "preview": "Other Reporting Required by Government Auditing Standards \nInternal Control over Financial Reporting \nIn planning and performing our audit of the consolidated financial statements as of and for the ye"
+        }
+      ],
+      "latency_s": 1.55,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "What was the Congressional Publishing Appropriation in FY 1980 in nominal and constant dollars, versus FY 2018?",
+      "category": "table",
+      "expected_answer": "In FY 1980 it was $91.6 million ($285.4 million in constant dollars), compared with $79.5 million in FY 2018.",
+      "expected_pages": [
+        11,
+        12
+      ],
+      "expected_keywords": [
+        "91.6",
+        "285.4",
+        "79.5"
+      ],
+      "answer": "**Congressional Publishing Appropriation**\n\n| Fiscal Year | Nominal dollars | Constant dollars* |\n|-------------|----------------|-------------------|\n| FY 1980 | $91.6 million | $285.4 million |\n| FY 2018 | $79.5 million | $79.5 million |\n\n\\*Constant‑dollar values are expressed in “today’s dollars” (i.e., inflation‑adjusted to the price level of FY 2018). The report notes that FY 1980’s appropriation of $91.6 million is equivalent to $285.4 million in constant dollars, while FY 2018’s appropriation is $79.5 million in both nominal and constant terms.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": null,
+          "distance": 0.2057,
+          "preview": "of Representatives. \nAnnual appropriations for Congressional Publishing \nhave been at or below $79.7 million in each year, FY \n2014-2018.\nCongressional Publishing Appropriation\nFY 1980-2018\n\t Fiscal Y"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": null,
+          "distance": 0.3261,
+          "preview": "historical issues of the Congressional Record, a project \nwhich was completed in FY 2018.\nGPO Cuts the Cost of Congressional Work  \nGPO’s use of electronic information technologies has \nbeen the princ"
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": null,
+          "distance": 0.276,
+          "preview": "10\n2 0 1 8 A N N U A L R E P O R T | U . S . G O V E R N M E N T P U B L I S H I N G O F F I C E \nin today’s dollars of $285.4 million. By comparison, \nour approved funding for FY 2018 was $79.5 milli"
+        },
+        {
+          "start_page": 63,
+          "end_page": 63,
+          "title": null,
+          "type": null,
+          "distance": 0.3655,
+          "preview": "Section IV: Notes to the Financial Statements \n \n \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018                                                                            "
+        },
+        {
+          "start_page": 76,
+          "end_page": 76,
+          "title": null,
+          "type": null,
+          "distance": 0.357,
+          "preview": "Section IV: Notes to the Financial Statements \n \n \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018                                                                            "
+        }
+      ],
+      "latency_s": 6.96,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "What were GPO's retained earnings at the end of FY 2018 compared with the end of FY 2017?",
+      "category": "table",
+      "expected_answer": "Retained earnings were about $441.9 million ($441,889 thousand) at end of FY 2018, up $52.6 million from $389.3 million ($389,265 thousand) in FY 2017.",
+      "expected_pages": [
+        27,
+        44,
+        58,
+        59
+      ],
+      "expected_keywords": [
+        "441",
+        "389"
+      ],
+      "answer": "GPO’s retained earnings were **$441.9 million at the end of FY 2018**, up from **$389.3 million at the end of FY 2017**.【Source: GPO‑Anual‑report.pdf, Page 27】【Source: GPO‑Anual‑report.pdf, Page 44】",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 27,
+          "end_page": 27,
+          "title": null,
+          "type": null,
+          "distance": 0.2195,
+          "preview": "with Treasury increased to $644.8 million in FY 2018 from $585.9 million in FY 2017 primarily due to net income \nfrom agency operations and an increase in deferred revenues, primarily customer deposit"
+        },
+        {
+          "start_page": 44,
+          "end_page": 44,
+          "title": null,
+          "type": null,
+          "distance": 0.3676,
+          "preview": "materials offset by a decrease in supplies and materials and other services.  \n \nChanges in Retained Earnings  \n \nGPO’s retained earnings increased by $52.6 million (13.5%) to $441.9 million at the en"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": null,
+          "type": null,
+          "distance": 0.368,
+          "preview": "services, and depreciation as well as rents, communications, and utilities, partially offset by a decrease in \nsupplies and materials and travel, transportation, and postage. \nGPO’s fund balance with "
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": null,
+          "type": null,
+          "distance": 0.4472,
+          "preview": "GPO achieved positive financial results before other operating expenses and Passport Capital Projects \nReserve. Net income was $52.6 million in FY 2018 compared with net income of $58.9 million in FY "
+        },
+        {
+          "start_page": 6,
+          "end_page": 6,
+          "title": null,
+          "type": null,
+          "distance": 0.4918,
+          "preview": "10th Anniversary of SID’s program to produce secure \nidentification credentials for Federal agencies. Thanks \nto the dedication and skill of our SID professionals, \nGPO—through the end of FY 2018—prod"
+        }
+      ],
+      "latency_s": 10.16,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "Who was GPO's largest customer in FY 2018 and how much was it billed?",
+      "category": "table",
+      "expected_answer": "The U.S. Department of State, with billings of $270,596 thousand, or 33.3% of total.",
+      "expected_pages": [
+        81
+      ],
+      "expected_keywords": [
+        "State",
+        "270,596",
+        "33.3"
+      ],
+      "answer": "GPO’s largest customer in FY 2018 was the **U.S. Department of State**, which was billed **$270,596** (representing 33.3 % of total billings).",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 2,
+      "retrieved": [
+        {
+          "start_page": 73,
+          "end_page": 73,
+          "title": null,
+          "type": null,
+          "distance": 0.3599,
+          "preview": "Section IV: Notes to the Financial Statements \n \n \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018                                                                            "
+        },
+        {
+          "start_page": 81,
+          "end_page": 81,
+          "title": null,
+          "type": null,
+          "distance": 0.3876,
+          "preview": "years ended September 30, 2018, and September 30, 2017, totaled $11.1 million and $10.8 \nmillion, respectively.  \n \n15.  Major Customers  \n \nGPO’s primary customers are the Congress and large Federal "
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.3911,
+          "preview": "through the Business Operations Revolving Fund by \nrevenues generated by payments from agencies and \nsales to the public. \nThe largest single component of GPO’s annual \nexpenses is publishing work pro"
+        },
+        {
+          "start_page": 17,
+          "end_page": 17,
+          "title": null,
+          "type": null,
+          "distance": 0.3729,
+          "preview": "congressional and inherently governmental work such \nas the Federal Register, the Budget, and security and \nintelligent documents, GPO produces virtually all other \nFederal agency information products"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.4544,
+          "preview": "from these funds, GPO’s net operating income from \nFY 2018 was $20.4 million.\nFunds appropriated directly by Congress provided \nnearly $119.5 million (including funds from the \nCongressional Publishin"
+        }
+      ],
+      "latency_s": 8.77,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How were GPO's total FY 2018 appropriations of $117.068 million split between Congressional Publishing, Salaries and Expenses, and the Revolving Fund?",
+      "category": "table",
+      "expected_answer": "Congressional Publishing $79,528 thousand, Salaries and Expenses $29,000 thousand, and Revolving Fund $8,540 thousand, totaling $117,068 thousand.",
+      "expected_pages": [
+        76,
+        78
+      ],
+      "expected_keywords": [
+        "79,528",
+        "29,000",
+        "8,540"
+      ],
+      "answer": "GPO’s FY 2018 appropriations of **$117.068 million** were allocated as follows (figures shown in thousands of dollars):\n\n| Category | FY 2018 appropriation |\n|----------|----------------------|\n| Congressional Publishing | **$79,528** (≈ $79.5 million) |\n| Salaries and Expenses | **$29,000** (≈ $29.0 million) |\n| Revolving Fund | **$8,540** (≈ $8.5 million) |\n| **Total** | **$117,068** (≈ $117.1 million) |\n\n*Source: GPO Annual Report, “Total Appropriations Made Available” table (Page 78).*",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 76,
+          "end_page": 76,
+          "title": null,
+          "type": null,
+          "distance": 0.1988,
+          "preview": "and Expenses, respectively to offset requirements for new budget authority for fiscal \n2012, and liquidate obligations incurred in subsequent years. As of September 30, 2018, \nGPO had expended $8 mill"
+        },
+        {
+          "start_page": 78,
+          "end_page": 78,
+          "title": null,
+          "type": null,
+          "distance": 0.177,
+          "preview": "unexpended as of September 30, 2018. \n \n \n13.  Appropriated Funds \n \n \n13. A.  Total Appropriations Made Available \n \n The total appropriations made available to GPO for fiscal 2018 and 2017 were as f"
+        },
+        {
+          "start_page": 77,
+          "end_page": 77,
+          "title": null,
+          "type": null,
+          "distance": 0.2797,
+          "preview": "Section IV: Notes to the Financial Statements \n \n \nU. S. Government Publishing Office  |  Financial Year In Review – FY 2018                                                                            "
+        },
+        {
+          "start_page": 77,
+          "end_page": 77,
+          "title": null,
+          "type": null,
+          "distance": 0.2707,
+          "preview": "fiscal 2017, a balance of about $255,000 was available.  \n \n• In fiscal 2015, GPO transferred approximately $1.2 million from the Congressional \nPublishing Appropriations remaining from fiscal year 20"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.2022,
+          "preview": "from these funds, GPO’s net operating income from \nFY 2018 was $20.4 million.\nFunds appropriated directly by Congress provided \nnearly $119.5 million (including funds from the \nCongressional Publishin"
+        }
+      ],
+      "latency_s": 8.99,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "What annual salary did the GPO Director receive in FY 2018?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided excerpts do not contain information about the GPO Director’s annual salary for FY 2018.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.4113,
+          "preview": "from these funds, GPO’s net operating income from \nFY 2018 was $20.4 million.\nFunds appropriated directly by Congress provided \nnearly $119.5 million (including funds from the \nCongressional Publishin"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.2998,
+          "preview": "consecutive year GPO has earned such an audit result.\nFY 2018 Financial Results  Revenue totaled \n$874.5 million while expenses charged against GPO’s \nbudget were $821.9 million, for an overall net in"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": null,
+          "type": null,
+          "distance": 0.3725,
+          "preview": "GPO achieved positive financial results before other operating expenses and Passport Capital Projects \nReserve. Net income was $52.6 million in FY 2018 compared with net income of $58.9 million in FY "
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.3814,
+          "preview": "through the Business Operations Revolving Fund by \nrevenues generated by payments from agencies and \nsales to the public. \nThe largest single component of GPO’s annual \nexpenses is publishing work pro"
+        },
+        {
+          "start_page": 6,
+          "end_page": 6,
+          "title": null,
+          "type": null,
+          "distance": 0.4754,
+          "preview": "10th Anniversary of SID’s program to produce secure \nidentification credentials for Federal agencies. Thanks \nto the dedication and skill of our SID professionals, \nGPO—through the end of FY 2018—prod"
+        }
+      ],
+      "latency_s": 9.69,
+      "error": null
+    },
+    {
+      "document": "gpo",
+      "question": "How much electricity (in kilowatt-hours) did GPO's facilities consume in FY 2018?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided excerpts do not contain any information about the amount of electricity (in kilowatt‑hours) that GPO’s facilities consumed in FY 2018.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 23,
+          "end_page": 23,
+          "title": null,
+          "type": null,
+          "distance": 0.5667,
+          "preview": "million increase over the 58 million copies distributed \nin FY 2017. In total, GPO professionals at the Laurel \nand Pueblo facilities processed over 1.6 million orders \nin FY 2018.\nGPO and Social Medi"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": null,
+          "type": null,
+          "distance": 0.4832,
+          "preview": "services, and depreciation as well as rents, communications, and utilities, partially offset by a decrease in \nsupplies and materials and travel, transportation, and postage. \nGPO’s fund balance with "
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": null,
+          "distance": 0.5763,
+          "preview": "FY 2018, while also cataloging a total of 34,367 titles.\nGPO’s facilities personnel undertook a major \nrenovation project in FY 2018 on behalf of the National \nArchives and Records Administration (NAR"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.5368,
+          "preview": "from these funds, GPO’s net operating income from \nFY 2018 was $20.4 million.\nFunds appropriated directly by Congress provided \nnearly $119.5 million (including funds from the \nCongressional Publishin"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": null,
+          "type": null,
+          "distance": 0.4651,
+          "preview": "consecutive year GPO has earned such an audit result.\nFY 2018 Financial Results  Revenue totaled \n$874.5 million while expenses charged against GPO’s \nbudget were $821.9 million, for an overall net in"
+        }
+      ],
+      "latency_s": 8.62,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "How fast does the World Bank expect the global economy to grow in 2026, and how does that compare with 2025?",
+      "category": "text",
+      "expected_answer": "Global growth is projected to slow to 2.5 percent in 2026 from 2.9 percent in 2025, the weakest rate since the COVID-19 pandemic.",
+      "expected_pages": [
+        19
+      ],
+      "expected_keywords": [
+        "2.5 percent",
+        "2.9 percent",
+        "2026"
+      ],
+      "answer": "The World Bank projects that global GDP will grow **about 2.5 percent in 2026**.  \nThis is a slowdown from the **2.9 percent growth expected for 2025**, a decline of roughly **0.4 percentage point**.【source: world_bank_report.pdf, Page 25】【source: world_bank_report.pdf, Page 19】",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 2,
+      "retrieved": [
+        {
+          "start_page": 40,
+          "end_page": 40,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.4037,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\nIn all, U.S. growth is projected to average 2.2 percent in 2026, as expected in January, with the impact of the conflict offsetting the stronger underlying "
+        },
+        {
+          "start_page": 19,
+          "end_page": 19,
+          "title": "Executive Summary",
+          "type": null,
+          "distance": 0.3166,
+          "preview": "[Executive Summary > Executive Summary]\nThe global economy is facing another major shock. The conflict in the Middle East has triggered sharp increases in energy prices, renewed inflationary pressures"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": "Ch. 1 Global Outlook",
+          "type": null,
+          "distance": 0.3303,
+          "preview": "[Ch. 1 Global Outlook > Ch. 1 Global Outlook]\nThe global economy is facing another major shock. The conflict in the Middle East has triggered sharp increases in energy prices, renewed inflationary pre"
+        },
+        {
+          "start_page": 55,
+          "end_page": 55,
+          "title": "Risks to the outlook",
+          "type": null,
+          "distance": 0.3269,
+          "preview": "[Ch. 1 Global Outlook > Risks to the outlook]\n. Given the extent and duration of price pressures, major central banks would likely raise policy rates this year, also weighing on growth. In all, GDP-we"
+        },
+        {
+          "start_page": 27,
+          "end_page": 27,
+          "title": "Summary",
+          "type": null,
+          "distance": 0.3661,
+          "preview": "[Ch. 1 Global Outlook > Summary]\n. The expected deceleration is driven by slowing growth in advanced economies and EMDEs reliant on imported energy, as well as sharply weaker exports in economies in t"
+        }
+      ],
+      "latency_s": 11.7,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "In the scenario where energy supply disruptions are worse than assumed and combined with significant financial stress, how low could global growth fall in 2026?",
+      "category": "text",
+      "expected_answer": "Global GDP growth could fall to just 1.3 percent in 2026, about 1.2 percentage points below the baseline, in the energy and financial stress scenario.",
+      "expected_pages": [
+        55
+      ],
+      "expected_keywords": [
+        "1.3 percent",
+        "1.2 percentage point"
+      ],
+      "answer": "If energy‑supply disruptions turn out to be more severe than assumed and are coupled with substantial financial stress, global growth could fall to just **1.3 percent in 2026**.",
+      "not_found": false,
+      "keyword_recall": 0.5,
+      "page_hit": true,
+      "first_hit_rank": 4,
+      "retrieved": [
+        {
+          "start_page": 19,
+          "end_page": 19,
+          "title": "Executive Summary",
+          "type": null,
+          "distance": 0.2666,
+          "preview": "[Executive Summary > Executive Summary]\n. Risks to the outlook remain skewed to the downside. A renewed escalation of hostilities or more prolonged disruptions to commodity flows could further raise c"
+        },
+        {
+          "start_page": 25,
+          "end_page": 25,
+          "title": "Ch. 1 Global Outlook",
+          "type": null,
+          "distance": 0.2573,
+          "preview": "[Ch. 1 Global Outlook > Ch. 1 Global Outlook]\n. Risks to the outlook remain skewed to the downside. A renewed escalation of hostilities or more prolonged disruptions to commodity flows could further r"
+        },
+        {
+          "start_page": 29,
+          "end_page": 29,
+          "title": "Summary",
+          "type": null,
+          "distance": 0.1729,
+          "preview": "[Ch. 1 Global Outlook > Summary]\nThe outlook is subject to substantial downside risks. In particular, a further surge in energy prices and a sharper acceleration in inflation could weigh on global gro"
+        },
+        {
+          "start_page": 55,
+          "end_page": 55,
+          "title": "Risks to the outlook",
+          "type": null,
+          "distance": 0.2824,
+          "preview": "[Ch. 1 Global Outlook > Risks to the outlook]\n. Compared with the energy stress scenario, the addition of financial stress would reduce growth in EMDEs by a further 0.9 percentage point in 2026, to 1."
+        },
+        {
+          "start_page": 55,
+          "end_page": 55,
+          "title": "Risks to the outlook",
+          "type": null,
+          "distance": 0.3288,
+          "preview": "[Ch. 1 Global Outlook > Risks to the outlook]\n. The combined effects of energy market stress and widespread financial strains would result in much weaker growth outcomes than in the baseline scenario."
+        }
+      ],
+      "latency_s": 14.48,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "According to the box on AI and global growth, what is global potential growth projected to be this decade, and what was it in the 2000s and 2010s?",
+      "category": "text",
+      "expected_answer": "Global potential growth fell from 3.6 percent a year in the 2000s to 2.8 percent in the 2010s and is projected to fall to about 2.2 percent this decade.",
+      "expected_pages": [
+        30
+      ],
+      "expected_keywords": [
+        "2.2 percent",
+        "3.6 percent",
+        "2.8 percent"
+      ],
+      "answer": "The box notes that global potential growth:\n\n* **2000s:** about **3.6 % per year**  \n* **2010s:** about **2.8 % per year**  \n* **This decade (2020s‑2030s):** projected to be roughly **2.2 % per year**  \n\nThese figures are taken from the World Bank report’s “BOX 1.1 How much will AI affect global growth?” which states that potential growth has fallen from 3.6 % in the 2000s to 2.8 % in the 2010s and is expected to decline further to about 2.2 % this decade.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 30,
+          "end_page": 30,
+          "title": "BOX 1.1 How much will AI affect global growth?",
+          "type": null,
+          "distance": 0.1847,
+          "preview": "[Ch. 1 Global Outlook > BOX 1.1 How much will AI affect global growth?]\n. The debate about the economic effects of AI comes at a time when potential growth—the maximum sustainable rate of expansion wi"
+        },
+        {
+          "start_page": 30,
+          "end_page": 30,
+          "title": "BOX 1.1 How much will AI affect global growth?",
+          "type": null,
+          "distance": 0.2611,
+          "preview": "[Ch. 1 Global Outlook > BOX 1.1 How much will AI affect global growth?]\n. This is why much of the debate centers on whether AI can meaningfully raise economy-wide productivity growth over the next dec"
+        },
+        {
+          "start_page": 17,
+          "end_page": 17,
+          "title": "Acknowledgments",
+          "type": null,
+          "distance": 0.258,
+          "preview": "[Contents > Acknowledgments]\n. The first is impossible to miss: the rapid adoption of artificial intelligence (AI), even if it failed to live up to the hype, would by most accounts still boost global "
+        },
+        {
+          "start_page": 32,
+          "end_page": 32,
+          "title": "Illustrative growth scenarios",
+          "type": null,
+          "distance": 0.2644,
+          "preview": "[Ch. 1 Global Outlook > Illustrative growth scenarios]\n. These scenarios apply common productivity assumptions across country groups and therefore should be interpreted as illustrative upper-bound exe"
+        },
+        {
+          "start_page": 32,
+          "end_page": 32,
+          "title": "Illustrative growth scenarios",
+          "type": null,
+          "distance": 0.2688,
+          "preview": "[Ch. 1 Global Outlook > Illustrative growth scenarios]\n. This simple exercise abstracts from adoption dynamics, crosscountry spillovers, investment needs, labor market adjustments, and broader demand "
+        }
+      ],
+      "latency_s": 14.97,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What growth rate is projected for the East Asia and Pacific region in 2026?",
+      "category": "text",
+      "expected_answer": "EAP growth is projected to moderate to 4.2 percent in 2026 from 5 percent in 2025, reflecting the Middle East conflict and China's outlook.",
+      "expected_pages": [
+        81
+      ],
+      "expected_keywords": [
+        "4.2",
+        "2026"
+      ],
+      "answer": "The projected growth rate for the East Asia and Pacific region in 2026 is **4.2 percent**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 81,
+          "end_page": 81,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.3388,
+          "preview": "[East Asia and Pacific > Outlook]\nGrowth in EAP is projected to moderate to 4.2 percent in 2026 from 5 percent in 2025, reflecting the impact of the conflict as well as China’s outlook (figure 2.3.A; "
+        },
+        {
+          "start_page": 81,
+          "end_page": 81,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.2695,
+          "preview": "[East Asia and Pacific > Outlook]\n. Growth is expected to edge up to 4.3 percent in 2027–28, as energy prices ease while diminishing marginal returns to capital, high debt, and population aging contin"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": "TABLE 1.1 Real GDP Percentage-point differences",
+          "type": null,
+          "distance": 0.2835,
+          "preview": "East Asia and Pacific | TABLE 1.1 Real GDP Percentage-point differences\nEast Asia and Pacific: 2023=5.2, 2024=5.0, 2025e=5.0, 2026f=4.2, 2027f=4.4, 2028f=4.3\nEast Asia and Pacific percentage-point cha"
+        },
+        {
+          "start_page": 83,
+          "end_page": 83,
+          "title": "TABLE 2.1 East Asia and Pacific forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.3207,
+          "preview": "Pacific Island Economies | TABLE 2.1 East Asia and Pacific forecast summary Percentage-point\nPacific Island Economies: 2023=4.6, 2024=3.8, 2025e=4.9, 2026f=3.5, 2027f=3.6, 2028f=3.0\nPacific Island Eco"
+        },
+        {
+          "start_page": 83,
+          "end_page": 83,
+          "title": "TABLE 2.1 East Asia and Pacific forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.3464,
+          "preview": "Net exports, contribution to growth | TABLE 2.1 East Asia and Pacific forecast summary Percentage-point\nNet exports, contribution to growth: 2023=-0.4, 2024=1.3, 2025e=1.5, 2026f=0.8, 2027f=0.5, 2028f"
+        }
+      ],
+      "latency_s": 10.35,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What is the 2026 growth forecast for the Middle East, North Africa, Afghanistan, and Pakistan region, and how large is the downgrade versus January?",
+      "category": "text",
+      "expected_answer": "With Iran excluded, MNA growth is expected to weaken to 1.6 percent in 2026 from 4 percent in 2025, a 2.7-percentage-point downgrade from the January projection.",
+      "expected_pages": [
+        92
+      ],
+      "expected_keywords": [
+        "1.6 percent",
+        "2.7"
+      ],
+      "answer": "The 2026 growth forecast for the Middle East, North Africa, Afghanistan, and Pakistan (MNA) region is **1.6 percent**, and this represents a **2.7‑percentage‑point downgrade** from the January projection.【world_bank_report.pdf, Page 92】",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 92,
+          "end_page": 92,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.2883,
+          "preview": "[Middle East, North Africa, Afghanistan, and Pakistan > Outlook]\nWith forecasts for the Islamic Republic of Iran excluded because of exceptionally high uncertainty, growth in MNA is expected to weaken"
+        },
+        {
+          "start_page": 95,
+          "end_page": 95,
+          "title": "TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts",
+          "type": null,
+          "distance": 0.3153,
+          "preview": "Afghanistan | TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts\nAfghanistan: 2023=2.3, 2024=1.9, 2025e=4.8, 2026f=4.0, 2027f=3.9, 2028f=3.8\nAfghanistan percentage-point "
+        },
+        {
+          "start_page": 95,
+          "end_page": 95,
+          "title": "TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts",
+          "type": null,
+          "distance": 0.3292,
+          "preview": "Pakistan | TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts\nPakistan: 2023=-0.2, 2024=2.6, 2025e=3.1, 2026f=3.0, 2027f=3.2, 2028f=3.7\nPakistan percentage-point change f"
+        },
+        {
+          "start_page": 92,
+          "end_page": 92,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.3399,
+          "preview": "[Middle East, North Africa, Afghanistan, and Pakistan > Outlook]\n. However, the outlook is subject to significant uncertainty. Growth in hydrocarbon exporters in the Middle East is set to slow to 0.3 "
+        },
+        {
+          "start_page": 94,
+          "end_page": 94,
+          "title": "TABLE 2.7 Middle East, North Africa, Afghanistan, and Pakistan forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.3122,
+          "preview": "GCC | TABLE 2.7 Middle East, North Africa, Afghanistan, and Pakistan forecast summary Percentage-point\nGCC: 2023=1.4, 2024=3.3, 2025e=4.5, 2026f=1.3, 2027f=5.2, 2028f=4.0\nGCC percentage-point change f"
+        }
+      ],
+      "latency_s": 10.16,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "How fast is real per capita GDP expected to grow in Sub-Saharan Africa in 2026 and in 2027-28?",
+      "category": "text",
+      "expected_answer": "SSA real per capita GDP growth is projected to remain at 1.6 percent in 2026 before firming to an average of 2 percent per year in 2027-28, which is insufficient to substantially reduce extreme poverty.",
+      "expected_pages": [
+        100
+      ],
+      "expected_keywords": [
+        "1.6 percent",
+        "per capita",
+        "2 percent"
+      ],
+      "answer": "According to the World Bank report, real per‑capita GDP growth in Sub‑Saharan Africa is projected to be **1.6 % in 2026** and to **average about 2 % per year over 2027‑2028**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 100,
+          "end_page": 100,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.3591,
+          "preview": "[Sub-Saharan Africa > Outlook]\n. Real per capita GDP growth in SSA is projected to remain at 1.6 percent in 2026, before firming to an average of 2 percent per year in 2027–28. Nonetheless, this pace "
+        },
+        {
+          "start_page": 100,
+          "end_page": 100,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.3382,
+          "preview": "[Sub-Saharan Africa > Outlook]\n. Non-resource-rich economies are expected to see growth slow from 6.4 percent in 2025 to 5.7 percent in 2026, and then average 6.2 percent over 2027–28, though still ou"
+        },
+        {
+          "start_page": 101,
+          "end_page": 101,
+          "title": "TABLE 2.11 Sub-Saharan Africa forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.296,
+          "preview": "GDP per capita (U.S. dollars) | TABLE 2.11 Sub-Saharan Africa forecast summary Percentage-point\nGDP per capita (U.S. dollars): 2023=0.5, 2024=1.3, 2025e=1.6, 2026f=1.6, 2027f=1.9, 2028f=2.1\nGDP per ca"
+        },
+        {
+          "start_page": 102,
+          "end_page": 102,
+          "title": "TABLE 2.12 Sub-Saharan Africa economy forecasts1",
+          "type": null,
+          "distance": 0.3449,
+          "preview": "Congo, Dem. Rep. | TABLE 2.12 Sub-Saharan Africa economy forecasts1\nCongo, Dem. Rep.: 2023=8.6, 2024=6.1, 2025e=5.5, 2026f=5.2, 2027f=5.1, 2028f=5.1\nCongo, Dem. Rep. percentage-point change from Janua"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": "TABLE 1.1 Real GDP Percentage-point differences",
+          "type": null,
+          "distance": 0.3138,
+          "preview": "Sub-Saharan Africa | TABLE 1.1 Real GDP Percentage-point differences\nSub-Saharan Africa: 2023=3.0, 2024=3.8, 2025e=4.1, 2026f=4.0, 2027f=4.4, 2028f=4.5\nSub-Saharan Africa percentage-point change from "
+        }
+      ],
+      "latency_s": 10.59,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "How much have EMDE sovereign spreads and domestic-currency bond yields risen in association with the increase in debt-to-GDP ratios since 2010?",
+      "category": "text",
+      "expected_answer": "The rise in EMDE debt-to-GDP ratios since 2010 is associated with increases of about 110 basis points in sovereign spreads and about 30 basis points in domestic-currency yields.",
+      "expected_pages": [
+        109
+      ],
+      "expected_keywords": [
+        "110",
+        "30 basis points"
+      ],
+      "answer": "The rise in EMDE debt‑to‑GDP ratios since 2010 is estimated to have lifted:\n\n* **Dollar‑denominated sovereign‑bond spreads** by roughly **110 basis points** (about 1.1 percentage points), and  \n* **Domestic‑currency government‑bond yields** by roughly **30 basis points** (about 0.3 percentage points).\n\n(Other model specifications give very similar figures – about 114 bps for spreads and 31 bps for domestic‑currency yields.)",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 2,
+      "retrieved": [
+        {
+          "start_page": 19,
+          "end_page": 19,
+          "title": "Executive Summary",
+          "type": null,
+          "distance": 0.2072,
+          "preview": "[Executive Summary > Executive Summary]\n. The relationship with rising debt is non-linear: the increases in spreads or yields associated with increases in debt-to-GDP ratios are greater the higher the"
+        },
+        {
+          "start_page": 109,
+          "end_page": 109,
+          "title": "Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs",
+          "type": null,
+          "distance": 0.2171,
+          "preview": "[Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs > Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs]\n. The estimated relationship with debt is no"
+        },
+        {
+          "start_page": 120,
+          "end_page": 120,
+          "title": "Policy implications",
+          "type": null,
+          "distance": 0.2076,
+          "preview": "[Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs > Policy implications]\nsovereign spreads and domestic-currency yields in EMDEs in the period 2010–24. In this period, the m"
+        },
+        {
+          "start_page": 112,
+          "end_page": 112,
+          "title": "Key trends in EMDE government debt and interest rates",
+          "type": null,
+          "distance": 0.22,
+          "preview": "[Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs > Key trends in EMDE government debt and interest rates]\n. Based on previous studies of the effect of public debt on intere"
+        },
+        {
+          "start_page": 122,
+          "end_page": 122,
+          "title": "The role of advanced economy debt and bond yields",
+          "type": null,
+          "distance": 0.2332,
+          "preview": "[Ch. 3 A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs > The role of advanced economy debt and bond yields]\n. Assuming an impact of 3 basis points, this implies that the 12 perce"
+        }
+      ],
+      "latency_s": 14.86,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "In commodity-exporting EMDEs, how do government revenues and primary spending respond to a 1 percent rise in commodity prices over five years?",
+      "category": "text",
+      "expected_answer": "A 1 percent increase in commodity prices raises both revenues and primary spending by about 0.4 percent after five years, suggesting windfalls are gradually spent rather than saved.",
+      "expected_pages": [
+        20,
+        145,
+        148,
+        157
+      ],
+      "expected_keywords": [
+        "0.4 percent",
+        "five years",
+        "primary spending"
+      ],
+      "answer": "A 1 % rise in commodity prices leads, after five years, to roughly a **0.4 % increase in government revenues** and a **0.4 % increase in primary (non‑interest) spending** in commodity‑exporting EMDEs. This indicates that most of the revenue windfall is gradually absorbed by higher spending rather than being saved.",
+      "not_found": false,
+      "keyword_recall": 0.6666666666666666,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 20,
+          "end_page": 20,
+          "title": "Executive Summary",
+          "type": null,
+          "distance": 0.1437,
+          "preview": "[Executive Summary > Executive Summary]\n. Government debt across EMDEs has risen since the global financial crisis, but commodity exporters are especially vulnerable. A 1 percent increase in commodity"
+        },
+        {
+          "start_page": 145,
+          "end_page": 145,
+          "title": "Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings",
+          "type": null,
+          "distance": 0.2494,
+          "preview": "[Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings > Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings]\n. A 1 percent increase in commodity prices raises both r"
+        },
+        {
+          "start_page": 148,
+          "end_page": 148,
+          "title": "Introduction",
+          "type": null,
+          "distance": 0.2425,
+          "preview": "[Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings > Introduction]\n. Agricultural exporters tend to face chronically weak revenues and the least favorable debt dynamics, generally "
+        },
+        {
+          "start_page": 157,
+          "end_page": 157,
+          "title": "Output cycles versus commodity price movements",
+          "type": null,
+          "distance": 0.2491,
+          "preview": "[Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings > Output cycles versus commodity price movements]\n. Over time, however, the average response becomes clearly procyclical: a 1 per"
+        },
+        {
+          "start_page": 150,
+          "end_page": 150,
+          "title": "Fiscal revenues",
+          "type": null,
+          "distance": 0.2166,
+          "preview": "[Ch. 4 Navigating Volatility: Fiscal Policy and Commodity Price Swings > Fiscal revenues]\nIn the early 2000s, rising commodity prices worked in favor of commodity-exporting EMDEs, contributing to stro"
+        }
+      ],
+      "latency_s": 13.9,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What is the euro area's GDP growth forecast for 2026 in the main global forecast table?",
+      "category": "table",
+      "expected_answer": "Table 1.1 forecasts euro area real GDP growth of 0.8 percent in 2026, down from 1.4 percent in 2025 and a 0.1 percentage-point downgrade from January.",
+      "expected_pages": [
+        26
+      ],
+      "expected_keywords": [
+        "0.8"
+      ],
+      "answer": "The main global forecast table projects euro‑area real GDP growth of **0.8 % in 2026**.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 2,
+      "retrieved": [
+        {
+          "start_page": 28,
+          "end_page": 28,
+          "title": "Summary",
+          "type": null,
+          "distance": 0.3009,
+          "preview": "[Ch. 1 Global Outlook > Summary]\nGrowth in the euro area is projected to face somewhat greater headwinds due to the region’s reliance on natural gas and oil imports, but nevertheless the outlook remai"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": "TABLE 1.1 Real GDP Percentage-point differences",
+          "type": null,
+          "distance": 0.2732,
+          "preview": "Euro area | TABLE 1.1 Real GDP Percentage-point differences\nEuro area: 2023=0.5, 2024=1.0, 2025e=1.4, 2026f=0.8, 2027f=1.3, 2028f=1.3\nEuro area percentage-point change from January 2026 projections: 2"
+        },
+        {
+          "start_page": 41,
+          "end_page": 41,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.3613,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\nGrowth in the euro area is expected to recover to 1.3 percent over 2027–28, slightly outpacing estimates of potential growth, led by a firming of domestic d"
+        },
+        {
+          "start_page": 40,
+          "end_page": 40,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.387,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\n. While the headline manufacturing PMI continued to remain firmly in expansionary territory through April and May, subindexes related to input price pressur"
+        },
+        {
+          "start_page": 86,
+          "end_page": 86,
+          "title": "TABLE 2.3 Europe and Central Asia forecast summary",
+          "type": null,
+          "distance": 0.2937,
+          "preview": "Central Europe | TABLE 2.3 Europe and Central Asia forecast summary\nCentral Europe: 2023=0.5, 2024=2.3, 2025e=2.5, 2026f=2.2, 2027f=2.4, 2028f=2.7\nCentral Europe percentage-point change from January 2"
+        }
+      ],
+      "latency_s": 11.61,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What 2026 growth does the World Bank forecast for Romania, and how much was it revised since the January projections?",
+      "category": "table",
+      "expected_answer": "Romania's growth is forecast at 0.0 percent in 2026, a downward revision of 1.3 percentage points from January 2026 projections.",
+      "expected_pages": [
+        87
+      ],
+      "expected_keywords": [
+        "Romania",
+        "0.0",
+        "1.3"
+      ],
+      "answer": "The World Bank projects Romania’s real GDP growth in 2026 at **0.0 percent**. This forecast has been **revised down by 1.3 percentage points** compared with the January projections.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 87,
+          "end_page": 87,
+          "title": "TABLE 2.4 Europe and Central Asia economy forecasts Percentage-point differences",
+          "type": null,
+          "distance": 0.259,
+          "preview": "Romania | TABLE 2.4 Europe and Central Asia economy forecasts Percentage-point differences\nRomania: 2023=2.3, 2024=0.9, 2025e=0.7, 2026f=0.0, 2027f=1.7, 2028f=2.0\nRomania percentage-point change from "
+        },
+        {
+          "start_page": 99,
+          "end_page": 99,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4248,
+          "preview": "[Sub-Saharan Africa > Outlook]\nGrowth in SSA is forecast to edge down to 4 percent in 2026 and then recover to 4.4 percent on average in 2027–28 (figure 2.8.C). The growth forecast for 2026 has been r"
+        },
+        {
+          "start_page": 40,
+          "end_page": 40,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.4269,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\nIn all, U.S. growth is projected to average 2.2 percent in 2026, as expected in January, with the impact of the conflict offsetting the stronger underlying "
+        },
+        {
+          "start_page": 96,
+          "end_page": 96,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4421,
+          "preview": "[South Asia > Outlook]\n. Growth is then anticipated to rebound over the next two fiscal years, driven by firming domestic demand and a pickup in export growth. Excluding India, growth in the region is"
+        },
+        {
+          "start_page": 28,
+          "end_page": 28,
+          "title": "Summary",
+          "type": null,
+          "distance": 0.4529,
+          "preview": "[Ch. 1 Global Outlook > Summary]\nGrowth in the euro area is projected to face somewhat greater headwinds due to the region’s reliance on natural gas and oil imports, but nevertheless the outlook remai"
+        }
+      ],
+      "latency_s": 11.72,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What is Qatar's projected GDP growth for 2026, and by how much was it cut from the January forecast?",
+      "category": "table",
+      "expected_answer": "Qatar's GDP is projected to contract by 5.7 percent in 2026, an 11.0 percentage-point downgrade from the January 2026 projection.",
+      "expected_pages": [
+        95
+      ],
+      "expected_keywords": [
+        "Qatar",
+        "-5.7",
+        "11.0"
+      ],
+      "answer": "Qatar’s projected real GDP growth for 2026 is **‑5.7 %**, and this forecast was **cut by 11.0 percentage points** compared with the January projection.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 95,
+          "end_page": 95,
+          "title": "TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts",
+          "type": null,
+          "distance": 0.2052,
+          "preview": "Qatar | TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts\nQatar: 2023=1.2, 2024=3.0, 2025e=3.0, 2026f=-5.7, 2027f=5.7, 2028f=6.4\nQatar percentage-point change from Janua"
+        },
+        {
+          "start_page": 95,
+          "end_page": 95,
+          "title": "TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts",
+          "type": null,
+          "distance": 0.417,
+          "preview": "Kuwait | TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts\nKuwait: 2023=-1.6, 2024=-1.5, 2025e=2.6, 2026f=-6.4, 2027f=13.5, 2028f=2.8\nKuwait percentage-point change from"
+        },
+        {
+          "start_page": 26,
+          "end_page": 26,
+          "title": "TABLE 1.1 Real GDP Percentage-point differences",
+          "type": null,
+          "distance": 0.4254,
+          "preview": "Saudi Arabia | TABLE 1.1 Real GDP Percentage-point differences\nSaudi Arabia: 2023=0.5, 2024=2.6, 2025e=4.5, 2026f=3.1, 2027f=4.9, 2028f=3.7\nSaudi Arabia percentage-point change from January 2026 proje"
+        },
+        {
+          "start_page": 98,
+          "end_page": 98,
+          "title": "TABLE 2.9 South Asia forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.4231,
+          "preview": "Excluding Bangladesh | TABLE 2.9 South Asia forecast summary Percentage-point\nExcluding Bangladesh: 2023=-0.3, 2024=4.7, 2025e=4.6, 2026f=3.4, 2027f=4.2, 2028f=4.2\nExcluding Bangladesh percentage-poin"
+        },
+        {
+          "start_page": 102,
+          "end_page": 102,
+          "title": "TABLE 2.12 Sub-Saharan Africa economy forecasts1",
+          "type": null,
+          "distance": 0.416,
+          "preview": "Guinea | TABLE 2.12 Sub-Saharan Africa economy forecasts1\nGuinea: 2023=5.5, 2024=5.4, 2025e=7.4, 2026f=8.8, 2027f=11.6, 2028f=10.7\nGuinea percentage-point change from January 2026 projections: 2026f=-"
+        }
+      ],
+      "latency_s": 8.49,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What growth rate does the World Bank forecast for India in fiscal year 2026/27?",
+      "category": "table",
+      "expected_answer": "India's growth is forecast at 6.6 percent in FY2026/27 (after 7.7 percent in FY2025/26), a 0.1 percentage-point upgrade from January.",
+      "expected_pages": [
+        98
+      ],
+      "expected_keywords": [
+        "India",
+        "6.6",
+        "2026/27"
+      ],
+      "answer": "The World Bank forecasts that India’s economy will grow at **6.6 %** in fiscal year 2026/27 (April 2026 to March 2027).",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 3,
+      "retrieved": [
+        {
+          "start_page": 96,
+          "end_page": 96,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.3258,
+          "preview": "[South Asia > Outlook]\n. Growth in India is projected to moderate to 6.6 percent in fiscal year 2026/27 (April 2026 to March 2027), reflecting a slowdown in private demand growth owing to higher energ"
+        },
+        {
+          "start_page": 96,
+          "end_page": 96,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.2958,
+          "preview": "[South Asia > Outlook]\n. Growth is then anticipated to rebound over the next two fiscal years, driven by firming domestic demand and a pickup in export growth. Excluding India, growth in the region is"
+        },
+        {
+          "start_page": 98,
+          "end_page": 98,
+          "title": "TABLE 2.10 South Asia economy forecasts",
+          "type": null,
+          "distance": 0.306,
+          "preview": "India | TABLE 2.10 South Asia economy forecasts\nIndia: 2023=7.2, 2024=7.1, 2025e=7.7, 2026f=6.6, 2027f=7.2, 2028f=7.0\nIndia percentage-point change from January 2026 projections: 2026f=0.1, 2027f=0.6\n"
+        },
+        {
+          "start_page": 98,
+          "end_page": 98,
+          "title": "TABLE 2.9 South Asia forecast summary Percentage-point",
+          "type": null,
+          "distance": 0.4308,
+          "preview": "SAR excluding India | TABLE 2.9 South Asia forecast summary Percentage-point\nSAR excluding India: 2023=3.7, 2024=4.1, 2025e=3.9, 2026f=4.0, 2027f=4.8, 2028f=5.2\nSAR excluding India percentage-point ch"
+        },
+        {
+          "start_page": 41,
+          "end_page": 41,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.4339,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\n. Net exports are also envisaged to contribute more positively to growth over the next two years, as global activity strengthens and trade firms with progre"
+        }
+      ],
+      "latency_s": 10.48,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What GDP growth rate does the World Bank project for Australia in 2026?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided context does not contain any information about the World Bank’s projected GDP growth rate for Australia in 2026.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 100,
+          "end_page": 100,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4536,
+          "preview": "[Sub-Saharan Africa > Outlook]\n. Real per capita GDP growth in SSA is projected to remain at 1.6 percent in 2026, before firming to an average of 2 percent per year in 2027–28. Nonetheless, this pace "
+        },
+        {
+          "start_page": 55,
+          "end_page": 55,
+          "title": "Risks to the outlook",
+          "type": null,
+          "distance": 0.398,
+          "preview": "[Ch. 1 Global Outlook > Risks to the outlook]\n. Given the extent and duration of price pressures, major central banks would likely raise policy rates this year, also weighing on growth. In all, GDP-we"
+        },
+        {
+          "start_page": 96,
+          "end_page": 96,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4089,
+          "preview": "[South Asia > Outlook]\n. Growth is then anticipated to rebound over the next two fiscal years, driven by firming domestic demand and a pickup in export growth. Excluding India, growth in the region is"
+        },
+        {
+          "start_page": 40,
+          "end_page": 40,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.4407,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\nIn all, U.S. growth is projected to average 2.2 percent in 2026, as expected in January, with the impact of the conflict offsetting the stronger underlying "
+        },
+        {
+          "start_page": 86,
+          "end_page": 86,
+          "title": "TABLE 2.3 Europe and Central Asia forecast summary",
+          "type": null,
+          "distance": 0.4245,
+          "preview": "GDP per capita (U.S. dollars) | TABLE 2.3 Europe and Central Asia forecast summary\nGDP per capita (U.S. dollars): 2023=4.0, 2024=3.8, 2025e=2.3, 2026f=1.9, 2027f=2.2, 2028f=2.5\nGDP per capita (U.S. do"
+        }
+      ],
+      "latency_s": 12.65,
+      "error": null
+    },
+    {
+      "document": "world_bank",
+      "question": "What is the World Bank's 2026 growth forecast for Cuba?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided context does not contain the World Bank’s 2026 growth forecast for Cuba.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 89,
+          "end_page": 89,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4485,
+          "preview": "[Latin America and the Caribbean > Outlook]\n. Growth is projected to reach 2.5 percent in 2026 and average about 3.9 percent in 2027–28. In Guyana, growth is expected to remain exceptionally strong as"
+        },
+        {
+          "start_page": 88,
+          "end_page": 88,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4196,
+          "preview": "[Latin America and the Caribbean > Outlook]\nGrowth in LAC is projected to slow to 2.2 percent in 2026, reflecting still-weak domestic demand as well as weaker global growth, before strengthening gradu"
+        },
+        {
+          "start_page": 99,
+          "end_page": 99,
+          "title": "Outlook",
+          "type": null,
+          "distance": 0.4398,
+          "preview": "[Sub-Saharan Africa > Outlook]\nGrowth in SSA is forecast to edge down to 4 percent in 2026 and then recover to 4.4 percent on average in 2027–28 (figure 2.8.C). The growth forecast for 2026 has been r"
+        },
+        {
+          "start_page": 40,
+          "end_page": 40,
+          "title": "Advanced economies",
+          "type": null,
+          "distance": 0.4218,
+          "preview": "[Ch. 1 Global Outlook > Advanced economies]\nIn all, U.S. growth is projected to average 2.2 percent in 2026, as expected in January, with the impact of the conflict offsetting the stronger underlying "
+        },
+        {
+          "start_page": 91,
+          "end_page": 91,
+          "title": "TABLE 2.6 Latin America and the Caribbean economy forecasts1",
+          "type": null,
+          "distance": 0.4303,
+          "preview": "Dominican Republic | TABLE 2.6 Latin America and the Caribbean economy forecasts1\nDominican Republic: 2023=2.2, 2024=5.0, 2025e=2.1, 2026f=3.6, 2027f=4.4, 2028f=4.5\nDominican Republic percentage-point"
+        }
+      ],
+      "latency_s": 10.28,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "What share of the iMac's life cycle carbon footprint comes from production versus product use?",
+      "category": "table",
+      "expected_answer": "Production accounts for 50% and product use for 45% of the iMac (two ports, 256GB) life cycle emissions.",
+      "expected_pages": [
+        10
+      ],
+      "expected_keywords": [
+        "Production",
+        "50%",
+        "Product use",
+        "45%"
+      ],
+      "answer": "The iMac’s life‑cycle carbon footprint is split roughly as follows:\n\n- **Production:** ≈ 50 % of the total life‑cycle (scope 3) emissions  \n- **Product use:** ≈ 45 % of the total life‑cycle (scope 3) emissions  \n\n(The remaining emissions come from transportation (≈ 5 %) and end‑of‑life processing (< 1 %).)",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.2871,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "text",
+          "distance": 0.2593,
+          "preview": "[Carbon Footprint]\nNote: Percentages may not total 100 due to rounding.\nWe’ve calculated the product carbon footprint for the following configuration.\nCarbon Footprint\nGreenhouse gas emissions were ca"
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.3502,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.2959,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.4166,
+          "preview": "[Use]\nUse\niMac uses 58 percent less energy than the requirement for ENERGY STAR.[18]\nWe design our products to be energy efficient, long-lasting, and safe. iMac uses software and power-efficient compo"
+        }
+      ],
+      "latency_s": 15.55,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "What is the carbon footprint of the iMac with four ports and 512GB of storage?",
+      "category": "table",
+      "expected_answer": "The iMac (four ports) 512GB configuration has a carbon footprint of 391 kg CO2e.",
+      "expected_pages": [
+        10
+      ],
+      "expected_keywords": [
+        "four ports",
+        "512GB",
+        "391 kg"
+      ],
+      "answer": "The carbon footprint of the iMac with four ports and 512 GB of storage is **391 kg CO₂e**【apple_imac_report.pdf, Page 10】.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.1615,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.2227,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3668,
+          "preview": "Endnote 10: Greenhouse gas emissions were calculated using a life cycle assessment methodology in accordance with ISO 14040, 14044, and 14067 standards and based on iMac (two ports) with 512GB storage"
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.3521,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3597,
+          "preview": "Endnote 2: We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by"
+        }
+      ],
+      "latency_s": 10.22,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "How much power does the iMac draw in sleep mode on a 115V supply?",
+      "category": "table",
+      "expected_answer": "In sleep mode at 115V the iMac consumes 0.57W.",
+      "expected_pages": [
+        12
+      ],
+      "expected_keywords": [
+        "Sleep",
+        "115V",
+        "0.57W"
+      ],
+      "answer": "The iMac draws **0.57 W** in sleep mode when powered from a 115 V supply.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "table",
+          "distance": 0.2067,
+          "preview": "Table: Endnotes - Power consumption for iMac - Mode\nOff: 100V = 0.27W, 115V = 0.27W, 230V = 0.29W\nSleep: 100V = 0.56W, 115V = 0.57W, 230V = 0.59W\nIdle—Display On: 100V = 20.5W, 115V = 20.6W, 230V = 20"
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.2923,
+          "preview": "Endnote 18: Energy consumption and energy efficiency values are based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac. For more information, visit ww"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.6002,
+          "preview": "[Use]\nUse\niMac uses 58 percent less energy than the requirement for ENERGY STAR.[18]\nWe design our products to be energy efficient, long-lasting, and safe. iMac uses software and power-efficient compo"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.5949,
+          "preview": "[Use]\nDesigned to last\niMac features a durable unibody construction and has undergone rigorous testing for durability.\nMade with smarter chemistry\nWe apply rigorous controls for materials users touch—"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.6589,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        }
+      ],
+      "latency_s": 12.12,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "What is the measured power adapter efficiency for the iMac at 230V?",
+      "category": "table",
+      "expected_answer": "The 143W power adapter's efficiency at 230V is 91.9%.",
+      "expected_pages": [
+        12
+      ],
+      "expected_keywords": [
+        "Power adapter efficiency",
+        "230V",
+        "91.9%"
+      ],
+      "answer": "The measured power‑adapter efficiency for the iMac at 230 V is **91.9 %**【Source: apple_imac_report.pdf, Page 12 – Power adapter efficiency: 230 V = 91.9 %】.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "table",
+          "distance": 0.1696,
+          "preview": "Table: Endnotes - Power consumption for iMac - Mode\nOff: 100V = 0.27W, 115V = 0.27W, 230V = 0.29W\nSleep: 100V = 0.56W, 115V = 0.57W, 230V = 0.59W\nIdle—Display On: 100V = 20.5W, 115V = 20.6W, 230V = 20"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.5416,
+          "preview": "[Use]\nDesigned to last\niMac features a durable unibody construction and has undergone rigorous testing for durability.\nMade with smarter chemistry\nWe apply rigorous controls for materials users touch—"
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.4163,
+          "preview": "Endnote 18: Energy consumption and energy efficiency values are based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac. For more information, visit ww"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.5147,
+          "preview": "[Use]\nUse\niMac uses 58 percent less energy than the requirement for ENERGY STAR.[18]\nWe design our products to be energy efficient, long-lasting, and safe. iMac uses software and power-efficient compo"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.5418,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        }
+      ],
+      "latency_s": 15.23,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "In the carbon-neutral progress chart, what are the iMac's baseline (business-as-usual) emissions?",
+      "category": "chart",
+      "expected_answer": "The chart shows baseline emissions of 445 kg CO2e for the iMac.",
+      "expected_pages": [
+        2
+      ],
+      "expected_keywords": [
+        "445 kg",
+        "Baseline emissions"
+      ],
+      "answer": "The carbon‑neutral progress chart shows that the iMac’s baseline (business‑as‑usual) emissions are **445 kg CO₂e**.【apple_imac_report.pdf, Page 2】",
+      "not_found": false,
+      "keyword_recall": 0.5,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.3509,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "chart",
+          "distance": 0.2641,
+          "preview": "Chart: Progress toward carbon neutral (stacked bar chart)\nBar totals, left to right: 445 kg Baseline emissions -> –99 kg Emissions reductions -> 346 kg iMac emissions\nBar 1: 445 kg Baseline emissions["
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.3503,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3696,
+          "preview": "Endnote 7: Carbon reductions are calculated against a product-specific business-as-usual scenario as modeled by Apple: 1) No use of clean electricity for manufacturing or product use, beyond what is a"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.4168,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        }
+      ],
+      "latency_s": 17.22,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "According to the emissions chart, how many kilograms of emissions were cut from the baseline and what is the resulting iMac footprint?",
+      "category": "chart",
+      "expected_answer": "Emissions reductions of 99 kg bring the iMac from the 445 kg baseline down to 346 kg CO2e.",
+      "expected_pages": [
+        2
+      ],
+      "expected_keywords": [
+        "99 kg",
+        "346 kg"
+      ],
+      "answer": "The emissions chart shows that **99 kg of emissions were cut from the baseline**, resulting in a **final iMac footprint of 346 kg CO₂e**.【source: apple_imac_report.pdf, Page 2】",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "chart",
+          "distance": 0.3358,
+          "preview": "Chart: Progress toward carbon neutral (stacked bar chart)\nBar totals, left to right: 445 kg Baseline emissions -> –99 kg Emissions reductions -> 346 kg iMac emissions\nBar 1: 445 kg Baseline emissions["
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.2769,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.3735,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.3672,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3461,
+          "preview": "Endnote 10: Greenhouse gas emissions were calculated using a life cycle assessment methodology in accordance with ISO 14040, 14044, and 14067 standards and based on iMac (two ports) with 512GB storage"
+        }
+      ],
+      "latency_s": 13.23,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "Which types of emissions reductions are shown in the iMac carbon reduction chart?",
+      "category": "chart",
+      "expected_answer": "The chart shows reductions from recycled and low-carbon materials, low-carbon electricity for manufacturing, and non-air shipping.",
+      "expected_pages": [
+        2
+      ],
+      "expected_keywords": [
+        "Recycled and low-carbon materials",
+        "Low-carbon electricity",
+        "Non-air shipping"
+      ],
+      "answer": "The chart’s “Emissions reductions” bar is broken down into the following categories:\n\n- Recycled and low‑carbon materials  \n- Materials and process emissions  \n- Low‑carbon electricity  \n- Electricity for manufacturing  \n- Electricity for product use  \n- Non‑air shipping  \n- Transportation",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "chart",
+          "distance": 0.3372,
+          "preview": "Chart: Progress toward carbon neutral (stacked bar chart)\nBar totals, left to right: 445 kg Baseline emissions -> –99 kg Emissions reductions -> 346 kg iMac emissions\nBar 1: 445 kg Baseline emissions["
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.4358,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.3847,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3953,
+          "preview": "Endnote 7: Carbon reductions are calculated against a product-specific business-as-usual scenario as modeled by Apple: 1) No use of clean electricity for manufacturing or product use, beyond what is a"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.4968,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        }
+      ],
+      "latency_s": 13.43,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "Does the 100% recycled copper in the iMac's thermal module apply to every iMac model?",
+      "category": "footnote",
+      "expected_answer": "No. Recycled copper in the thermal module applies only to the iMac (four ports).",
+      "expected_pages": [
+        4,
+        11
+      ],
+      "expected_keywords": [
+        "thermal module",
+        "four ports"
+      ],
+      "answer": "No. The 100 % recycled copper used in the thermal‑module components is limited to the iMac ( four‑port ) model only; it does not apply to every iMac model.【Source: apple_imac_report.pdf, Page 11 – Endnote 14】",
+      "not_found": false,
+      "keyword_recall": 0.5,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.1674,
+          "preview": "Endnote 14: Recycled copper in the thermal module applies to iMac (four ports) only."
+        },
+        {
+          "start_page": 4,
+          "end_page": 4,
+          "title": null,
+          "type": "text",
+          "distance": 0.4751,
+          "preview": "[Design and Source]\nTin. We use 100 percent recycled tin in the solder of multiple printed circuit boards. Rare earth elements. We use 100 percent recycled rare earth elements in all magnets, represen"
+        },
+        {
+          "start_page": 4,
+          "end_page": 4,
+          "title": null,
+          "type": "text",
+          "distance": 0.4239,
+          "preview": "[Design and Source]\nSmarter chemistry\niMac is free of harmful substances like brominated flame retardants, PVC, phthalates, arsenic in the glass, and mercury.[5] And 100 percent of the materials in iM"
+        },
+        {
+          "start_page": 2,
+          "end_page": 2,
+          "title": null,
+          "type": "text",
+          "distance": 0.538,
+          "preview": "[Progress toward carbon neutral]\nProgress toward carbon neutral\nWe’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by App"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.4873,
+          "preview": "[Product Environmental Report]\nPackaging\n100% fiber-based, due to our work to remove plastic in packaging[3]\n100% recycled or responsibly sourced wood fibers[4]\nSupplier Code of Conduct\nThrough the Ap"
+        }
+      ],
+      "latency_s": 12.71,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "In which countries are Apple products not free of PVC and phthalates, and why?",
+      "category": "footnote",
+      "expected_answer": "AC power cords in India, Thailand (2-prong cords) and South Korea still contain PVC and phthalates while Apple seeks government approval for the replacement.",
+      "expected_pages": [
+        11
+      ],
+      "expected_keywords": [
+        "India",
+        "Thailand",
+        "South Korea",
+        "government approval"
+      ],
+      "answer": "Apple’s products are **not PVC‑ and phthalate‑free in the AC power cords sold in**:\n\n- **India**  \n- **Thailand** (specifically the 2‑prong AC power cords)  \n- **South Korea**\n\nIn these markets Apple is still working to obtain government approval for replacements that eliminate PVC and phthalates, so the current cords contain those substances.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.2834,
+          "preview": "Endnote 5: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and"
+        },
+        {
+          "start_page": 4,
+          "end_page": 4,
+          "title": null,
+          "type": "text",
+          "distance": 0.6125,
+          "preview": "[Design and Source]\nSmarter chemistry\niMac is free of harmful substances like brominated flame retardants, PVC, phthalates, arsenic in the glass, and mercury.[5] And 100 percent of the materials in iM"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.5064,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        },
+        {
+          "start_page": 9,
+          "end_page": 9,
+          "title": null,
+          "type": "text",
+          "distance": 0.6335,
+          "preview": "[Definitions]\n• End-of-life processing: Includes transportation from collection hubs to recycling centers and the energy used in mechanical separation and shredding of parts.\nFor more information on o"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.5959,
+          "preview": "Endnote 8: We calculate emissions savings from the use of recycled or low-carbon materials in our products by comparing the carbon intensity of key materials today with their 2015 baseline for Apple p"
+        }
+      ],
+      "latency_s": 11.93,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "Who verifies the Zero Waste to Landfill status of iMac final assembly sites, and what diversion rate is required?",
+      "category": "footnote",
+      "expected_answer": "Sites are third-party verified by UL LLC under the UL 2799 Standard, which requires at least 90 percent diversion through methods other than waste to energy.",
+      "expected_pages": [
+        11
+      ],
+      "expected_keywords": [
+        "UL 2799",
+        "90 percent"
+      ],
+      "answer": "The Zero Waste‑to‑Landfill status of iMac final‑assembly sites is verified by the third‑party auditor **UL LLC** (under the UL 2799 Standard).  \nTo qualify, a site must achieve **at least a 90 % diversion rate** from landfill using methods other than waste‑to‑energy (with higher diversion percentages earning Silver, Gold or Platinum designations).",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.2016,
+          "preview": "Endnote 16: All established final assembly supplier sites—those that have been Apple suppliers for more than one year— for iMac are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL "
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": "text",
+          "distance": 0.3221,
+          "preview": "[Make]\nSmarter chemicals\nAll established iMac final assembly\nsupplier sites use safer cleaners and\ndegreasers in their manufacturing\nprocesses, as determined by\nmethodologies like the\nGreenScreen® ass"
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.4086,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.5005,
+          "preview": "Endnote 14: Recycled copper in the thermal module applies to iMac (four ports) only."
+        },
+        {
+          "start_page": 4,
+          "end_page": 4,
+          "title": null,
+          "type": "text",
+          "distance": 0.4735,
+          "preview": "[Design and Source]\nSmarter chemistry\niMac is free of harmful substances like brominated flame retardants, PVC, phthalates, arsenic in the glass, and mercury.[5] And 100 percent of the materials in iM"
+        }
+      ],
+      "latency_s": 12.65,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "How does the iMac's energy use compare with the ENERGY STAR requirement?",
+      "category": "text",
+      "expected_answer": "The iMac uses 58 percent less energy than the ENERGY STAR requirement.",
+      "expected_pages": [
+        7
+      ],
+      "expected_keywords": [
+        "58 percent",
+        "ENERGY STAR"
+      ],
+      "answer": "The iMac uses **58 % less energy** than the maximum energy allowance set by the ENERGY STAR requirement.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.3648,
+          "preview": "[Use]\nUse\niMac uses 58 percent less energy than the requirement for ENERGY STAR.[18]\nWe design our products to be energy efficient, long-lasting, and safe. iMac uses software and power-efficient compo"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.3077,
+          "preview": "[Use]\nDesigned to last\niMac features a durable unibody construction and has undergone rigorous testing for durability.\nMade with smarter chemistry\nWe apply rigorous controls for materials users touch—"
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.2217,
+          "preview": "Endnote 18: Energy consumption and energy efficiency values are based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac. For more information, visit ww"
+        },
+        {
+          "start_page": 5,
+          "end_page": 5,
+          "title": null,
+          "type": "text",
+          "distance": 0.6267,
+          "preview": "[Make]\nSmarter chemicals\nAll established iMac final assembly\nsupplier sites use safer cleaners and\ndegreasers in their manufacturing\nprocesses, as determined by\nmethodologies like the\nGreenScreen® ass"
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "table",
+          "distance": 0.4311,
+          "preview": "Table: Endnotes - Power consumption for iMac - Mode\nOff: 100V = 0.27W, 115V = 0.27W, 230V = 0.29W\nSleep: 100V = 0.56W, 115V = 0.57W, 230V = 0.59W\nIdle—Display On: 100V = 20.5W, 115V = 20.6W, 230V = 20"
+        }
+      ],
+      "latency_s": 16.16,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "In what share of the countries where Apple sells products does it offer or take part in take-back and recycling programs?",
+      "category": "text",
+      "expected_answer": "Apple provides or participates in product take-back and recycling collection programs in 99 percent of the countries where it sells products.",
+      "expected_pages": [
+        8
+      ],
+      "expected_keywords": [
+        "99 percent",
+        "take-back"
+      ],
+      "answer": "Apple provides or participates in product take‑back and recycling collection programs in **99 % of the countries where it sells its products**【apple_imac_report.pdf, Page 8】.",
+      "not_found": false,
+      "keyword_recall": 1.0,
+      "page_hit": true,
+      "first_hit_rank": 1,
+      "retrieved": [
+        {
+          "start_page": 8,
+          "end_page": 8,
+          "title": null,
+          "type": "text",
+          "distance": 0.3951,
+          "preview": "[Recover]\nRecover\nReturn your product with Apple Trade In, in-store or online, and we’ll ensure it has a long life or recycle it for free.\nWe design our products to be durable so they are used longer."
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.5331,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        },
+        {
+          "start_page": 3,
+          "end_page": 3,
+          "title": null,
+          "type": "text",
+          "distance": 0.4421,
+          "preview": "[Taking responsibility for our products at every stage]\nTaking responsibility for our products at every stage\nWe take responsibility for our products throughout their life cycles—including the materia"
+        },
+        {
+          "start_page": 8,
+          "end_page": 8,
+          "title": null,
+          "type": "text",
+          "distance": 0.4619,
+          "preview": "[Recover]\nWe’re also creating Apple Recycler Guides to provide guidance for professional electronics recyclers on how to safely disassemble Apple products to maximize recovery of resources. The guides"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.428,
+          "preview": "Endnote 5: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and"
+        }
+      ],
+      "latency_s": 11.54,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "How much does the iMac weigh?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided documents do not contain any information about the iMac’s weight.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.5673,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.5931,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 12,
+          "end_page": 12,
+          "title": null,
+          "type": "table",
+          "distance": 0.5173,
+          "preview": "Table: Endnotes - Power consumption for iMac - Mode\nOff: 100V = 0.27W, 115V = 0.27W, 230V = 0.29W\nSleep: 100V = 0.56W, 115V = 0.57W, 230V = 0.59W\nIdle—Display On: 100V = 20.5W, 115V = 20.6W, 230V = 20"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.6314,
+          "preview": "[Use]\nUse\niMac uses 58 percent less energy than the requirement for ENERGY STAR.[18]\nWe design our products to be energy efficient, long-lasting, and safe. iMac uses software and power-efficient compo"
+        },
+        {
+          "start_page": 7,
+          "end_page": 7,
+          "title": null,
+          "type": "text",
+          "distance": 0.5286,
+          "preview": "[Use]\nDesigned to last\niMac features a durable unibody construction and has undergone rigorous testing for durability.\nMade with smarter chemistry\nWe apply rigorous controls for materials users touch—"
+        }
+      ],
+      "latency_s": 12.95,
+      "error": null
+    },
+    {
+      "document": "apple",
+      "question": "What is the carbon footprint of the iMac configuration with 1TB of storage?",
+      "category": "unanswerable",
+      "expected_answer": "Not stated in the report.",
+      "expected_pages": [],
+      "expected_keywords": [],
+      "answer": "The provided documents do not contain a carbon‑footprint value for an iMac configured with 1 TB of storage. The available data only list footprints for the 256 GB and 512 GB configurations.",
+      "not_found": true,
+      "keyword_recall": null,
+      "page_hit": null,
+      "first_hit_rank": null,
+      "retrieved": [
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.2267,
+          "preview": "Table: Carbon Footprint - Configuration\niMac (four ports) 512GB: iMac (four ports) 512GB = 391 kg CO2e"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "text",
+          "distance": 0.4013,
+          "preview": "[Carbon Footprint]\nNote: Percentages may not total 100 due to rounding.\nWe’ve calculated the product carbon footprint for the following configuration.\nCarbon Footprint\nGreenhouse gas emissions were ca"
+        },
+        {
+          "start_page": 10,
+          "end_page": 10,
+          "title": null,
+          "type": "table",
+          "distance": 0.2691,
+          "preview": "Table: Carbon Footprint - Greenhouse gas emissions\nTotal product footprint: iMac (two ports) 256GB = 346 kg CO2e\nApple emissions from utility-purchased electricity (scope 2): iMac (two ports) 256GB = "
+        },
+        {
+          "start_page": 1,
+          "end_page": 1,
+          "title": null,
+          "type": "text",
+          "distance": 0.3986,
+          "preview": "[Product Environmental Report]\nSmarter chemistry[5]\n• Arsenic-free glass • Mercury-free • Brominated flame retardant–free • PVC-free\nProduct Environmental Report\niMac\nDate introduced October 28, 2024\n"
+        },
+        {
+          "start_page": 11,
+          "end_page": 11,
+          "title": null,
+          "type": "footnote",
+          "distance": 0.3731,
+          "preview": "Endnote 10: Greenhouse gas emissions were calculated using a life cycle assessment methodology in accordance with ISO 14040, 14044, and 14067 standards and based on iMac (two ports) with 512GB storage"
+        }
+      ],
+      "latency_s": 11.28,
+      "error": null
+    }
+  ]
+}

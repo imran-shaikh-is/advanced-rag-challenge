@@ -1,0 +1,176 @@
+[
+  {
+    "question": "What is the core mission of the U.S. Government Publishing Office according to the report?",
+    "expected_answer": "GPO's core mission is Keeping America Informed by producing, procuring, cataloging, indexing, authenticating, disseminating, and preserving the official information products of the U.S. Government.",
+    "expected_keywords": [
+      "Keeping America Informed",
+      "authenticating",
+      "preserving"
+    ],
+    "expected_pages": [
+      7,
+      35
+    ],
+    "category": "text"
+  },
+  {
+    "question": "What are the five goals that GPO's strategic plan is built around?",
+    "expected_answer": "Exceeding stakeholders' expectations; enhancing access to Federal Government information; strengthening its position as the government-wide authority on publishing; promoting collaboration and innovation within government; and engaging employees and enhancing internal operations.",
+    "expected_keywords": [
+      "stakeholders",
+      "access",
+      "authority",
+      "innovation"
+    ],
+    "expected_pages": [
+      9
+    ],
+    "category": "text"
+  },
+  {
+    "question": "How many U.S. passports did GPO produce for the State Department in FY 2018, and how many has it produced over the past 11 years?",
+    "expected_answer": "About 16 million passports in FY 2018, and more than 166 million over the past 11 years.",
+    "expected_keywords": [
+      "16 million",
+      "166 million"
+    ],
+    "expected_pages": [
+      18
+    ],
+    "category": "text"
+  },
+  {
+    "question": "How far back does GPO's completed digitization of the Congressional Record go, and what did the first issue contain?",
+    "expected_answer": "Back to the first issue of March 4, 1873, which opens with a proclamation by President Ulysses S. Grant convening a special session of the Senate.",
+    "expected_keywords": [
+      "1873",
+      "Grant"
+    ],
+    "expected_pages": [
+      13
+    ],
+    "category": "text"
+  },
+  {
+    "question": "How many issues of the Federal Register were digitized in the project completed with the Office of the Federal Register, and from what year?",
+    "expected_answer": "More than 14,587 issues (over two million pages), dating back to the Federal Register's inception in 1936.",
+    "expected_keywords": [
+      "14,587",
+      "1936"
+    ],
+    "expected_pages": [
+      17
+    ],
+    "category": "text"
+  },
+  {
+    "question": "How many webinars did the FDLP Academy host in FY 2018 and how many registrants did they have?",
+    "expected_answer": "The FDLP Academy hosted 85 webinars with 10,214 combined registrants in FY 2018.",
+    "expected_keywords": [
+      "85",
+      "10,214"
+    ],
+    "expected_pages": [
+      20
+    ],
+    "category": "text"
+  },
+  {
+    "question": "How much did Agency Distribution Services revenue grow in FY 2018, and how many copies were distributed?",
+    "expected_answer": "ADS revenues climbed to nearly $13 million from $9.2 million in FY 2017, and copies distributed rose to 69.2 million from 58 million.",
+    "expected_keywords": [
+      "13 million",
+      "9.2 million",
+      "69.2"
+    ],
+    "expected_pages": [
+      23
+    ],
+    "category": "text"
+  },
+  {
+    "question": "Which firm audited GPO's FY 2018 financial statements, and what kind of opinion did GPO receive?",
+    "expected_answer": "KPMG LLP audited the statements and issued an unmodified (clean) opinion, GPO's 22nd consecutive clean opinion.",
+    "expected_keywords": [
+      "KPMG",
+      "unmodified",
+      "22nd"
+    ],
+    "expected_pages": [
+      6,
+      25,
+      52
+    ],
+    "category": "text"
+  },
+  {
+    "question": "What was the Congressional Publishing Appropriation in FY 1980 in nominal and constant dollars, versus FY 2018?",
+    "expected_answer": "In FY 1980 it was $91.6 million ($285.4 million in constant dollars), compared with $79.5 million in FY 2018.",
+    "expected_keywords": [
+      "91.6",
+      "285.4",
+      "79.5"
+    ],
+    "expected_pages": [
+      11,
+      12
+    ],
+    "category": "table"
+  },
+  {
+    "question": "What were GPO's retained earnings at the end of FY 2018 compared with the end of FY 2017?",
+    "expected_answer": "Retained earnings were about $441.9 million ($441,889 thousand) at end of FY 2018, up $52.6 million from $389.3 million ($389,265 thousand) in FY 2017.",
+    "expected_keywords": [
+      "441",
+      "389"
+    ],
+    "expected_pages": [
+      27,
+      44,
+      58,
+      59
+    ],
+    "category": "table"
+  },
+  {
+    "question": "Who was GPO's largest customer in FY 2018 and how much was it billed?",
+    "expected_answer": "The U.S. Department of State, with billings of $270,596 thousand, or 33.3% of total.",
+    "expected_keywords": [
+      "State",
+      "270,596",
+      "33.3"
+    ],
+    "expected_pages": [
+      81
+    ],
+    "category": "table"
+  },
+  {
+    "question": "How were GPO's total FY 2018 appropriations of $117.068 million split between Congressional Publishing, Salaries and Expenses, and the Revolving Fund?",
+    "expected_answer": "Congressional Publishing $79,528 thousand, Salaries and Expenses $29,000 thousand, and Revolving Fund $8,540 thousand, totaling $117,068 thousand.",
+    "expected_keywords": [
+      "79,528",
+      "29,000",
+      "8,540"
+    ],
+    "expected_pages": [
+      76,
+      78
+    ],
+    "category": "table"
+  },
+  {
+    "question": "What annual salary did the GPO Director receive in FY 2018?",
+    "expected_answer": "Not stated in the report.",
+    "expected_keywords": [],
+    "expected_pages": [],
+    "category": "unanswerable"
+  },
+  {
+    "question": "How much electricity (in kilowatt-hours) did GPO's facilities consume in FY 2018?",
+    "expected_answer": "Not stated in the report.",
+    "expected_keywords": [],
+    "expected_pages": [],
+    "category": "unanswerable"
+  }
+]

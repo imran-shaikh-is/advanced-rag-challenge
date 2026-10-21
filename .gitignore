@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+chroma_db/
+.streamlit/secrets.toml
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

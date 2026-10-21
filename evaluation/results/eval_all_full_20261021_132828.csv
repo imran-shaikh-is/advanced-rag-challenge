@@ -1,0 +1,101 @@
+document,question,category,expected_pages,retrieved_pages,page_hit,first_hit_rank,keyword_recall,not_found,answer,latency_s,error
+gpo,What is the core mission of the U.S. Government Publishing Office according to the report?,text,7;35,35;61;7;7;39,True,1,1.0,False,"The report states that the core mission of the U.S. Government Publishing Office is **“Keeping America Informed,”** which it fulfills by producing, procuring, cataloging, indexing, authenticating, disseminating, and preserving the official information products of the U.S. Government.",7.35,
+gpo,What are the five goals that GPO's strategic plan is built around?,text,9,9;9;49;8;36,True,1,1.0,False,"The five goals that GPO’s strategic plan is built around are:
+
+1. Exceeding our stakeholders’ expectations  
+2. Enhancing access to Federal Government information  
+3. Strengthening our position as the government‑wide authority on publishing  
+4. Promoting collaboration and innovation within government  
+5. Engaging employees",1.59,
+gpo,"How many U.S. passports did GPO produce for the State Department in FY 2018, and how many has it produced over the past 11 years?",text,18,18;6;6;14;47,True,1,1.0,False,"- **FY 2018 production:** GPO produced about **16 million U.S. passports** for the State Department.  
+- **Production over the past 11 years:** GPO has produced **more than 166 million U.S. passports** in total during the preceding 11‑year period.  
+
+(These figures are stated in the GPO Annual Report, FY 2018.)",1.98,
+gpo,"How far back does GPO's completed digitization of the Congressional Record go, and what did the first issue contain?",text,13,13;17;22;11;13,True,1,1.0,False,"GPO’s digitization of the Congressional Record was completed back to the very first issue, dated **March 4, 1873**. That inaugural issue **opens with a proclamation by President Ulysses S. Grant formally convening a special session of the United States Senate**.",3.36,
+gpo,"How many issues of the Federal Register were digitized in the project completed with the Office of the Federal Register, and from what year?",text,17,17;22;13;5;10,True,1,1.0,False,"The project digitized **more than 14,587 individual issues** of the Federal Register, covering every issue **from its first publication in 1936**.",1.53,
+gpo,How many webinars did the FDLP Academy host in FY 2018 and how many registrants did they have?,text,20,20;5;5;21;19,True,1,1.0,False,"The FDLP Academy hosted **85 webinars** in FY 2018, with a total of **10,214 registrants**.",1.68,
+gpo,"How much did Agency Distribution Services revenue grow in FY 2018, and how many copies were distributed?",text,23,23;5;23;25;19,True,1,1.0,False,The Agency Distribution Services (ADS) program’s revenue rose from $9.2 million in FY 2017 to nearly $13 million in FY 2018 – an increase of about $3.8 million.  In FY 2018 the program distributed **approximately 69.2 million copies** of agency materials.,2.61,
+gpo,"Which firm audited GPO's FY 2018 financial statements, and what kind of opinion did GPO receive?",text,6;25;52,26;25;52;25;55,True,2,0.6666666666666666,False,"The FY 2018 financial statements were audited by the independent certified public accounting firm **KPMG LLP**.  
+GPO received an **unmodified (clean) audit opinion** on those consolidated financial statements.",1.55,
+gpo,"What was the Congressional Publishing Appropriation in FY 1980 in nominal and constant dollars, versus FY 2018?",table,11;12,12;11;12;63;76,True,1,1.0,False,"**Congressional Publishing Appropriation**
+
+| Fiscal Year | Nominal dollars | Constant dollars* |
+|-------------|----------------|-------------------|
+| FY 1980 | $91.6 million | $285.4 million |
+| FY 2018 | $79.5 million | $79.5 million |
+
+\*Constant‑dollar values are expressed in “today’s dollars” (i.e., inflation‑adjusted to the price level of FY 2018). The report notes that FY 1980’s appropriation of $91.6 million is equivalent to $285.4 million in constant dollars, while FY 2018’s appropriation is $79.5 million in both nominal and constant terms.",6.96,
+gpo,What were GPO's retained earnings at the end of FY 2018 compared with the end of FY 2017?,table,27;44;58;59,27;44;26;26;6,True,1,1.0,False,"GPO’s retained earnings were **$441.9 million at the end of FY 2018**, up from **$389.3 million at the end of FY 2017**.【Source: GPO‑Anual‑report.pdf, Page 27】【Source: GPO‑Anual‑report.pdf, Page 44】",10.16,
+gpo,Who was GPO's largest customer in FY 2018 and how much was it billed?,table,81,73;81;25;17;25,True,2,1.0,False,"GPO’s largest customer in FY 2018 was the **U.S. Department of State**, which was billed **$270,596** (representing 33.3 % of total billings).",8.77,
+gpo,"How were GPO's total FY 2018 appropriations of $117.068 million split between Congressional Publishing, Salaries and Expenses, and the Revolving Fund?",table,76;78,76;78;77;77;25,True,1,1.0,False,"GPO’s FY 2018 appropriations of **$117.068 million** were allocated as follows (figures shown in thousands of dollars):
+
+| Category | FY 2018 appropriation |
+|----------|----------------------|
+| Congressional Publishing | **$79,528** (≈ $79.5 million) |
+| Salaries and Expenses | **$29,000** (≈ $29.0 million) |
+| Revolving Fund | **$8,540** (≈ $8.5 million) |
+| **Total** | **$117,068** (≈ $117.1 million) |
+
+*Source: GPO Annual Report, “Total Appropriations Made Available” table (Page 78).*",8.99,
+gpo,What annual salary did the GPO Director receive in FY 2018?,unanswerable,,25;25;26;25;6,,,,True,The provided excerpts do not contain information about the GPO Director’s annual salary for FY 2018.,9.69,
+gpo,How much electricity (in kilowatt-hours) did GPO's facilities consume in FY 2018?,unanswerable,,23;26;5;25;25,,,,True,The provided excerpts do not contain any information about the amount of electricity (in kilowatt‑hours) that GPO’s facilities consumed in FY 2018.,8.62,
+world_bank,"How fast does the World Bank expect the global economy to grow in 2026, and how does that compare with 2025?",text,19,40;19;25;55;27,True,2,1.0,False,"The World Bank projects that global GDP will grow **about 2.5 percent in 2026**.  
+This is a slowdown from the **2.9 percent growth expected for 2025**, a decline of roughly **0.4 percentage point**.【source: world_bank_report.pdf, Page 25】【source: world_bank_report.pdf, Page 19】",11.7,
+world_bank,"In the scenario where energy supply disruptions are worse than assumed and combined with significant financial stress, how low could global growth fall in 2026?",text,55,19;25;29;55;55,True,4,0.5,False,"If energy‑supply disruptions turn out to be more severe than assumed and are coupled with substantial financial stress, global growth could fall to just **1.3 percent in 2026**.",14.48,
+world_bank,"According to the box on AI and global growth, what is global potential growth projected to be this decade, and what was it in the 2000s and 2010s?",text,30,30;30;17;32;32,True,1,1.0,False,"The box notes that global potential growth:
+
+* **2000s:** about **3.6 % per year**  
+* **2010s:** about **2.8 % per year**  
+* **This decade (2020s‑2030s):** projected to be roughly **2.2 % per year**  
+
+These figures are taken from the World Bank report’s “BOX 1.1 How much will AI affect global growth?” which states that potential growth has fallen from 3.6 % in the 2000s to 2.8 % in the 2010s and is expected to decline further to about 2.2 % this decade.",14.97,
+world_bank,What growth rate is projected for the East Asia and Pacific region in 2026?,text,81,81;81;26;83;83,True,1,1.0,False,The projected growth rate for the East Asia and Pacific region in 2026 is **4.2 percent**.,10.35,
+world_bank,"What is the 2026 growth forecast for the Middle East, North Africa, Afghanistan, and Pakistan region, and how large is the downgrade versus January?",text,92,92;95;95;92;94,True,1,1.0,False,"The 2026 growth forecast for the Middle East, North Africa, Afghanistan, and Pakistan (MNA) region is **1.6 percent**, and this represents a **2.7‑percentage‑point downgrade** from the January projection.【world_bank_report.pdf, Page 92】",10.16,
+world_bank,How fast is real per capita GDP expected to grow in Sub-Saharan Africa in 2026 and in 2027-28?,text,100,100;100;101;102;26,True,1,1.0,False,"According to the World Bank report, real per‑capita GDP growth in Sub‑Saharan Africa is projected to be **1.6 % in 2026** and to **average about 2 % per year over 2027‑2028**.",10.59,
+world_bank,How much have EMDE sovereign spreads and domestic-currency bond yields risen in association with the increase in debt-to-GDP ratios since 2010?,text,109,19;109;120;112;122,True,2,1.0,False,"The rise in EMDE debt‑to‑GDP ratios since 2010 is estimated to have lifted:
+
+* **Dollar‑denominated sovereign‑bond spreads** by roughly **110 basis points** (about 1.1 percentage points), and  
+* **Domestic‑currency government‑bond yields** by roughly **30 basis points** (about 0.3 percentage points).
+
+(Other model specifications give very similar figures – about 114 bps for spreads and 31 bps for domestic‑currency yields.)",14.86,
+world_bank,"In commodity-exporting EMDEs, how do government revenues and primary spending respond to a 1 percent rise in commodity prices over five years?",text,20;145;148;157,20;145;148;157;150,True,1,0.6666666666666666,False,"A 1 % rise in commodity prices leads, after five years, to roughly a **0.4 % increase in government revenues** and a **0.4 % increase in primary (non‑interest) spending** in commodity‑exporting EMDEs. This indicates that most of the revenue windfall is gradually absorbed by higher spending rather than being saved.",13.9,
+world_bank,What is the euro area's GDP growth forecast for 2026 in the main global forecast table?,table,26,28;26;41;40;86,True,2,1.0,False,The main global forecast table projects euro‑area real GDP growth of **0.8 % in 2026**.,11.61,
+world_bank,"What 2026 growth does the World Bank forecast for Romania, and how much was it revised since the January projections?",table,87,87;99;40;96;28,True,1,1.0,False,The World Bank projects Romania’s real GDP growth in 2026 at **0.0 percent**. This forecast has been **revised down by 1.3 percentage points** compared with the January projections.,11.72,
+world_bank,"What is Qatar's projected GDP growth for 2026, and by how much was it cut from the January forecast?",table,95,95;95;26;98;102,True,1,1.0,False,"Qatar’s projected real GDP growth for 2026 is **‑5.7 %**, and this forecast was **cut by 11.0 percentage points** compared with the January projection.",8.49,
+world_bank,What growth rate does the World Bank forecast for India in fiscal year 2026/27?,table,98,96;96;98;98;41,True,3,1.0,False,The World Bank forecasts that India’s economy will grow at **6.6 %** in fiscal year 2026/27 (April 2026 to March 2027).,10.48,
+world_bank,What GDP growth rate does the World Bank project for Australia in 2026?,unanswerable,,100;55;96;40;86,,,,True,The provided context does not contain any information about the World Bank’s projected GDP growth rate for Australia in 2026.,12.65,
+world_bank,What is the World Bank's 2026 growth forecast for Cuba?,unanswerable,,89;88;99;40;91,,,,True,The provided context does not contain the World Bank’s 2026 growth forecast for Cuba.,10.28,
+apple,What share of the iMac's life cycle carbon footprint comes from production versus product use?,table,10,10;10;2;1;7,True,1,1.0,False,"The iMac’s life‑cycle carbon footprint is split roughly as follows:
+
+- **Production:** ≈ 50 % of the total life‑cycle (scope 3) emissions  
+- **Product use:** ≈ 45 % of the total life‑cycle (scope 3) emissions  
+
+(The remaining emissions come from transportation (≈ 5 %) and end‑of‑life processing (< 1 %).)",15.55,
+apple,What is the carbon footprint of the iMac with four ports and 512GB of storage?,table,10,10;10;11;2;11,True,1,1.0,False,"The carbon footprint of the iMac with four ports and 512 GB of storage is **391 kg CO₂e**【apple_imac_report.pdf, Page 10】.",10.22,
+apple,How much power does the iMac draw in sleep mode on a 115V supply?,table,12,12;12;7;7;10,True,1,1.0,False,The iMac draws **0.57 W** in sleep mode when powered from a 115 V supply.,12.12,
+apple,What is the measured power adapter efficiency for the iMac at 230V?,table,12,12;7;12;7;1,True,1,1.0,False,"The measured power‑adapter efficiency for the iMac at 230 V is **91.9 %**【Source: apple_imac_report.pdf, Page 12 – Power adapter efficiency: 230 V = 91.9 %】.",15.23,
+apple,"In the carbon-neutral progress chart, what are the iMac's baseline (business-as-usual) emissions?",chart,2,2;2;10;11;1,True,1,0.5,False,"The carbon‑neutral progress chart shows that the iMac’s baseline (business‑as‑usual) emissions are **445 kg CO₂e**.【apple_imac_report.pdf, Page 2】",17.22,
+apple,"According to the emissions chart, how many kilograms of emissions were cut from the baseline and what is the resulting iMac footprint?",chart,2,2;10;10;2;11,True,1,1.0,False,"The emissions chart shows that **99 kg of emissions were cut from the baseline**, resulting in a **final iMac footprint of 346 kg CO₂e**.【source: apple_imac_report.pdf, Page 2】",13.23,
+apple,Which types of emissions reductions are shown in the iMac carbon reduction chart?,chart,2,2;2;10;11;10,True,1,1.0,False,"The chart’s “Emissions reductions” bar is broken down into the following categories:
+
+- Recycled and low‑carbon materials  
+- Materials and process emissions  
+- Low‑carbon electricity  
+- Electricity for manufacturing  
+- Electricity for product use  
+- Non‑air shipping  
+- Transportation",13.43,
+apple,Does the 100% recycled copper in the iMac's thermal module apply to every iMac model?,footnote,4;11,11;4;4;2;1,True,1,0.5,False,"No. The 100 % recycled copper used in the thermal‑module components is limited to the iMac ( four‑port ) model only; it does not apply to every iMac model.【Source: apple_imac_report.pdf, Page 11 – Endnote 14】",12.71,
+apple,"In which countries are Apple products not free of PVC and phthalates, and why?",footnote,11,11;4;1;9;11,True,1,1.0,False,"Apple’s products are **not PVC‑ and phthalate‑free in the AC power cords sold in**:
+
+- **India**  
+- **Thailand** (specifically the 2‑prong AC power cords)  
+- **South Korea**
+
+In these markets Apple is still working to obtain government approval for replacements that eliminate PVC and phthalates, so the current cords contain those substances.",11.93,
+apple,"Who verifies the Zero Waste to Landfill status of iMac final assembly sites, and what diversion rate is required?",footnote,11,11;5;1;11;4,True,1,1.0,False,"The Zero Waste‑to‑Landfill status of iMac final‑assembly sites is verified by the third‑party auditor **UL LLC** (under the UL 2799 Standard).  
+To qualify, a site must achieve **at least a 90 % diversion rate** from landfill using methods other than waste‑to‑energy (with higher diversion percentages earning Silver, Gold or Platinum designations).",12.65,
+apple,How does the iMac's energy use compare with the ENERGY STAR requirement?,text,7,7;7;12;5;12,True,1,1.0,False,The iMac uses **58 % less energy** than the maximum energy allowance set by the ENERGY STAR requirement.,16.16,
+apple,In what share of the countries where Apple sells products does it offer or take part in take-back and recycling programs?,text,8,8;1;3;8;11,True,1,1.0,False,"Apple provides or participates in product take‑back and recycling collection programs in **99 % of the countries where it sells its products**【apple_imac_report.pdf, Page 8】.",11.54,
+apple,How much does the iMac weigh?,unanswerable,,10;10;12;7;7,,,,True,The provided documents do not contain any information about the iMac’s weight.,12.95,
+apple,What is the carbon footprint of the iMac configuration with 1TB of storage?,unanswerable,,10;10;10;1;11,,,,True,The provided documents do not contain a carbon‑footprint value for an iMac configured with 1 TB of storage. The available data only list footprints for the 256 GB and 512 GB configurations.,11.28,

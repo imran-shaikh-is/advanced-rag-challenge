@@ -1,0 +1,183 @@
+[
+  {
+    "question": "How fast does the World Bank expect the global economy to grow in 2026, and how does that compare with 2025?",
+    "expected_answer": "Global growth is projected to slow to 2.5 percent in 2026 from 2.9 percent in 2025, the weakest rate since the COVID-19 pandemic.",
+    "expected_keywords": [
+      "2.5 percent",
+      "2.9 percent",
+      "2026"
+    ],
+    "expected_pages": [
+      19
+    ],
+    "expected_section": "Executive Summary",
+    "category": "text"
+  },
+  {
+    "question": "In the scenario where energy supply disruptions are worse than assumed and combined with significant financial stress, how low could global growth fall in 2026?",
+    "expected_answer": "Global GDP growth could fall to just 1.3 percent in 2026, about 1.2 percentage points below the baseline, in the energy and financial stress scenario.",
+    "expected_keywords": [
+      "1.3 percent",
+      "1.2 percentage point"
+    ],
+    "expected_pages": [
+      55
+    ],
+    "expected_section": "Energy and financial stress scenario",
+    "category": "text"
+  },
+  {
+    "question": "According to the box on AI and global growth, what is global potential growth projected to be this decade, and what was it in the 2000s and 2010s?",
+    "expected_answer": "Global potential growth fell from 3.6 percent a year in the 2000s to 2.8 percent in the 2010s and is projected to fall to about 2.2 percent this decade.",
+    "expected_keywords": [
+      "2.2 percent",
+      "3.6 percent",
+      "2.8 percent"
+    ],
+    "expected_pages": [
+      30
+    ],
+    "expected_section": "Box 1.1 How much will AI affect global growth?",
+    "category": "text"
+  },
+  {
+    "question": "What growth rate is projected for the East Asia and Pacific region in 2026?",
+    "expected_answer": "EAP growth is projected to moderate to 4.2 percent in 2026 from 5 percent in 2025, reflecting the Middle East conflict and China's outlook.",
+    "expected_keywords": [
+      "4.2",
+      "2026"
+    ],
+    "expected_pages": [
+      81
+    ],
+    "expected_section": "East Asia and Pacific",
+    "category": "text"
+  },
+  {
+    "question": "What is the 2026 growth forecast for the Middle East, North Africa, Afghanistan, and Pakistan region, and how large is the downgrade versus January?",
+    "expected_answer": "With Iran excluded, MNA growth is expected to weaken to 1.6 percent in 2026 from 4 percent in 2025, a 2.7-percentage-point downgrade from the January projection.",
+    "expected_keywords": [
+      "1.6 percent",
+      "2.7"
+    ],
+    "expected_pages": [
+      92
+    ],
+    "expected_section": "Middle East, North Africa, Afghanistan, and Pakistan",
+    "category": "text"
+  },
+  {
+    "question": "How fast is real per capita GDP expected to grow in Sub-Saharan Africa in 2026 and in 2027-28?",
+    "expected_answer": "SSA real per capita GDP growth is projected to remain at 1.6 percent in 2026 before firming to an average of 2 percent per year in 2027-28, which is insufficient to substantially reduce extreme poverty.",
+    "expected_keywords": [
+      "1.6 percent",
+      "per capita",
+      "2 percent"
+    ],
+    "expected_pages": [
+      100
+    ],
+    "expected_section": "Sub-Saharan Africa",
+    "category": "text"
+  },
+  {
+    "question": "How much have EMDE sovereign spreads and domestic-currency bond yields risen in association with the increase in debt-to-GDP ratios since 2010?",
+    "expected_answer": "The rise in EMDE debt-to-GDP ratios since 2010 is associated with increases of about 110 basis points in sovereign spreads and about 30 basis points in domestic-currency yields.",
+    "expected_keywords": [
+      "110",
+      "30 basis points"
+    ],
+    "expected_pages": [
+      109
+    ],
+    "expected_section": "A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs",
+    "category": "text"
+  },
+  {
+    "question": "In commodity-exporting EMDEs, how do government revenues and primary spending respond to a 1 percent rise in commodity prices over five years?",
+    "expected_answer": "A 1 percent increase in commodity prices raises both revenues and primary spending by about 0.4 percent after five years, suggesting windfalls are gradually spent rather than saved.",
+    "expected_keywords": [
+      "0.4 percent",
+      "five years",
+      "primary spending"
+    ],
+    "expected_pages": [
+      20,
+      145,
+      148,
+      157
+    ],
+    "expected_section": "Navigating Volatility: Fiscal Policy and Commodity Price Swings",
+    "category": "text"
+  },
+  {
+    "question": "What is the euro area's GDP growth forecast for 2026 in the main global forecast table?",
+    "expected_answer": "Table 1.1 forecasts euro area real GDP growth of 0.8 percent in 2026, down from 1.4 percent in 2025 and a 0.1 percentage-point downgrade from January.",
+    "expected_keywords": [
+      "0.8"
+    ],
+    "expected_pages": [
+      26
+    ],
+    "expected_section": "TABLE 1.1 Real GDP",
+    "category": "table"
+  },
+  {
+    "question": "What 2026 growth does the World Bank forecast for Romania, and how much was it revised since the January projections?",
+    "expected_answer": "Romania's growth is forecast at 0.0 percent in 2026, a downward revision of 1.3 percentage points from January 2026 projections.",
+    "expected_keywords": [
+      "Romania",
+      "0.0",
+      "1.3"
+    ],
+    "expected_pages": [
+      87
+    ],
+    "expected_section": "TABLE 2.4 Europe and Central Asia economy forecasts",
+    "category": "table"
+  },
+  {
+    "question": "What is Qatar's projected GDP growth for 2026, and by how much was it cut from the January forecast?",
+    "expected_answer": "Qatar's GDP is projected to contract by 5.7 percent in 2026, an 11.0 percentage-point downgrade from the January 2026 projection.",
+    "expected_keywords": [
+      "Qatar",
+      "-5.7",
+      "11.0"
+    ],
+    "expected_pages": [
+      95
+    ],
+    "expected_section": "TABLE 2.8 Middle East, North Africa, Afghanistan, and Pakistan economy forecasts",
+    "category": "table"
+  },
+  {
+    "question": "What growth rate does the World Bank forecast for India in fiscal year 2026/27?",
+    "expected_answer": "India's growth is forecast at 6.6 percent in FY2026/27 (after 7.7 percent in FY2025/26), a 0.1 percentage-point upgrade from January.",
+    "expected_keywords": [
+      "India",
+      "6.6",
+      "2026/27"
+    ],
+    "expected_pages": [
+      98
+    ],
+    "expected_section": "TABLE 2.10 South Asia economy forecasts",
+    "category": "table"
+  },
+  {
+    "question": "What GDP growth rate does the World Bank project for Australia in 2026?",
+    "expected_answer": "Not stated in the report.",
+    "expected_keywords": [],
+    "expected_pages": [],
+    "expected_section": "",
+    "category": "unanswerable"
+  },
+  {
+    "question": "What is the World Bank's 2026 growth forecast for Cuba?",
+    "expected_answer": "Not stated in the report.",
+    "expected_keywords": [],
+    "expected_pages": [],
+    "expected_section": "",
+    "category": "unanswerable"
+  }
+]
