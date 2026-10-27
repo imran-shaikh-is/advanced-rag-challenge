@@ -23,6 +23,7 @@ Each answerable question has a verified page and keywords. Every test set has 14
 - **Keyword recall:** share of the expected facts that appear in the generated answer.
 - **Unanswerable handled:** the model said the answer was not in the report, rather than inventing one. It said "not found" on no answerable question.
 - **Avg latency:** retrieval, re-ranking and the Groq call, with `top_k=5` and `openai/gpt-oss-120b`.
+- results are with gpt-oss-120b, set GROQ_MODEL to reproduce”
 
 All figures come from one full run: `evaluation/results/eval_all_full_20261021_132828.json` (CSV alongside).
 
